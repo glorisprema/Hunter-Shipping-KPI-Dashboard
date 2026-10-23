@@ -3,7 +3,7 @@
 Executive logistics dashboard to track On-Time Delivery, late shipments & carrier performance.
 
 **Author:** Gloris Paulraj | Supply Chain Analyst | Hamilton, ON
-**Project Type:** Python (Generation + Cleaning) + Power BI | No SQL
+**Project Type:** Python (Generation + Cleaning) + Power BI 
 **Live Repo:** `glorisprema/Hunter-Shipping-KPI-Dashboard`
 
 ### 📸 Dashboard Preview
