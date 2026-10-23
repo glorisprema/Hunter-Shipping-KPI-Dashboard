@@ -1,127 +1,91 @@
-# 🚚 Hunter Shipping KPI Dashboard | Power BI
+# 🚚 Hunter Shipping KPI Dashboard
 
-**Executive logistics dashboard to track On-Time Delivery, late shipments & carrier performance.**
+Executive logistics dashboard to track On-Time Delivery, late shipments & carrier performance.
 
 **Author:** Gloris Paulraj | Supply Chain Analyst | Hamilton, ON
-**Project Type:** Python (Data Cleaning) + Power BI (Dashboard) | 
-**Dataset:** `hunter_cleaned.csv` - 964 Shipments (Cleaned in Python)
+**Project Type:** Python (Generation + Cleaning) + Power BI | No SQL
+**Live Repo:** `glorisprema/Hunter-Shipping-KPI-Dashboard`
 
----
+### 📸 Dashboard Preview
 
-### 📸 Preview
+**HUNTER SHIPPING | SUPPLY CHAIN KPI DASHBOARD**
 
-#### HUNTER SHIPPING | SUPPLY CHAIN KPI DASHBOARD
+- **964** Total Orders (Cleaned from 1025)
+- **34.22%** On-Time | **65.78%** Late
+- **$277** Avg Shipping Cost | **$267K** Total Cost
+- **38.8%** Cancelled Rate - Key Problem Found
 
-| KPI Cards (from your video) |
-|---|
-| **964** Total Orders |
-| **34.22%** On-Time Delivery |
-| **65.78%** Late Shipments |
-| **$277** Avg Shipping Cost |
-| **0.65** Avg Delay Score |
+![Dashboard](Hunter_Dashboard.png)
 
-**Visuals in Dashboard:**
-1.  **Total orders by Delivery status** (Donut) - Cancelled 374, In Transit 203, Delayed 200, Delivered 187
-2.  **Avg Delay by Courier** (Bar Chart - Red/Blue)
+### 🔧 Tech Stack
 
-![Dashboard Screenshot](Hunter-power-bi-project.png)
-![Dataset Screenshot](Hunter-Shipping-KPI.png)
+- **Python:** Pandas, NumPy
+- **Power BI:** DAX, Power Query, KPI Cards
+- **Concepts:** Data Generation, Data Cleaning, Supply Chain KPIs
 
----
+### 📂 Project Flow - End to End
 
-### Phase 1: Python - Data Cleaning (ONLY Step Done)
+#### Phase 1: Data Generation (Hunter project.ipynb)
 
-**File:** `hunter_cleaned.py` -> outputs `hunter_cleaned.csv`
+Generated synthetic logistics data to simulate real WMS issues.
 
-**What I cleaned - This is your story for interview:**
+- `seed 101, n=1025` → `hunter_final_all_couriers.csv (1025, 13)`
+- Injected Mess: 
+    - Dates: `2023-01-15` vs `15/02/2023` vs `2023/03/10` vs invalid `2023-13-40`
+    - Cost: `'$250'`, `'USD 450'`, `'$-50'`, `'$'`
+    - Quantity: `-5`, `9999`, `None`
+    - Category: `Soap`, `soap`, `SOAP`
+    - State: `California`, `CA`, `Texas`, `NY`
+    - Delay: `100` outlier, `None`
+    - Added **70 duplicates**
 
-This dataset had real-world logistics mess like your Banking project had "Online vs online".
+#### Phase 2: Data Cleaning (1025 → 964)
 
-**Issues Found in Raw File:**
-- Courier column had leading spaces: `  DHL` vs `DHL` vs `DHL Parcel`
-- Destination_State inconsistent: `FLORIDA` vs `TEXAS` vs `CALIFORNIA` mixed case
-- Origin_Warehouse: `Dallas TX` (326 shipments top), `Miami FL`, `Los Angeles, CA`
-- Quantity_Units: Max 9,999 outlier (like your Age=200 in banking)
-- Delivery_Status: 4 values - Cancelled (38.8%), In Transit, Delayed, Delivered
-- Delay_Days: Avg 20.3 days, Max 100 days, 180 shipments >10 days delayed
+Cleaned in same notebook → `hunter_cleaned.csv (964, 13)`
 
-**Cleaning Code Used:**
+- **Date:** `pd.to_datetime(errors='coerce', dayfirst=True)` - dropped invalid `2023-13-40`
+- **Cost:** Stripped `$` and `USD`, converted to numeric, removed `$-50` and `$`
+- **Quantity:** Removed `-5` and `9999` outlier
+- **Category:** `.str.lower().str.title()` → `Soap`
+- **State:** Mapped `CA→CALIFORNIA, NY→NEWYORK` + `.str.upper()`
+- **Courier:** `.str.strip()` fixed spaces
+- **Delay:** Removed `100` outlier
+- **Duplicates:** `drop_duplicates()` - removed 70
 
-import pandas as pd
-df = pd.read_csv('hunter_raw.csv')
+**Final Cleaned (964):**
+- Origin: Dallas TX 326 (Top) | Miami FL 165 | Los Angeles CA 163
+- Delivery: Cancelled 374 (38.8%) | In Transit 203 | Delayed 200 | Delivered 187
 
-# 1. Strip spaces
-df['Courier'] = df['Courier'].str.strip()
-df['Origin_Warehouse'] = df['Origin_Warehouse'].str.strip()
+#### Phase 3: Power BI Dashboard
 
-# 2. Standardize states to UPPER
-df['Destination_State'] = df['Destination_State'].str.upper().str.strip()
+**File:** `Hunter power BI project.pbix`
 
-# 3. Handle outliers
-df = df[df['Delay_Days'] <= 100]
-df = df[df['Quantity_Units'] <= 10000]
-
-# 4. Final cleaned shape
-print(df.shape) # 964 rows x 13 columns
-df.to_csv('hunter_cleaned.csv', index=False)
-**Dashboard Design (What Recruiter Sees in Video):**
-- **5 Uniform KPI Cards** with conditional formatting (Red-Bad, Green-Good)
-- **Donut Chart:** Total orders by Delivery Status
-- **Bar Chart:** Avg Delay by Courier (Worst courier in Red)
-- **Layout:** Executive Supply Chain View
-
----
-
-### 📊 KPIs Tracked
-
-- Total Shipments: **964**
-- On-Time Delivery % (OTD): **34.22%**
-- Late Shipments %: **65.78%**
-- Avg Shipping Cost: **$277**
-- Avg Delay Score: **0.65**
-- Top Origin: **Dallas TX - 326 shipments**
-- Top Destination State: **TEXAS - 210 shipments**
-- Worst Status: **Cancelled - 374 (38.8%)**
-- High Delay Shipments: **180 shipments >10 days**
-
----
-
-### 📂 How to Open (Important for Recruiter)
-
-1. Download `Hunter power bi project.pbix` and `hunter_cleaned.csv` from this repo
-2. Double-click `.pbix` to open in Power BI Desktop
-3. No SQL setup needed - CSV is directly connected
-4. Click Refresh if needed
-
----
-
-### 🛠️ Tech Stack
-
-- **Python:** Pandas (strip, upper, outlier removal) - ONLY cleaning tool
-- **Power BI:** DAX, Power Query, KPI Cards, Donut, Bar Chart
-- **No SQL** - Intentionally Python-only for this project to show end-to-end Python -> BI
-
-### ✨ Features
-
-- Python-only cleaning pipeline (No SQL)
-- 5 Uniform KPI Cards
-- RAG Status with conditional formatting
-- Carrier Performance Analysis
-- Executive Supply Chain View
-- 964 Cleaned Shipments
-
----
+- No SQL - Direct CSV import
+- **DAX Measures:** `Total Orders = COUNTROWS(hunter)` (964), `Avg Cost = AVERAGE()`, `Total Cost = SUM()`
+- **Visuals:** 5 KPI Cards, Donut (Delivery Status), Bar (Avg Delay by Courier)
 
 ### 📁 Files in This Repo
 
-- `hunter_cleaned.py` - Python cleaning script (YOUR UPLOAD)
-- `hunter_cleaned.csv` - 964 cleaned rows output
-- `Hunter power bi project.pbix` - Power BI Dashboard
-- `Hunter-Shipping-KPI.png` - Dataset screenshot
-- `Hunter-power-bi-project.png` - Dashboard screenshot
-- `README.md` - This file
+- `Hunter project.ipynb` - Full code: Generation + Cleaning
+- `hunter_final_all_couriers.csv` - Raw 1025 rows (messy)
+- `hunter_cleaned.csv` - Cleaned 964 rows
+- `Hunter power BI project.pbix` - Power BI Dashboard
+- `Hunter_Dashboard.png` - Dashboard Preview
 
-**Author:** Gloris Paulraj | Supply Chain Analyst
-**Location:** Hamilton, Ontario, Canada
-**LinkedIn:** https://www.linkedin.com/in/gloris-paulraj-9302009b/
-**Comparison Project:** Banking Fraud Detection (Python + SQL + Power BI) - This one is Hunter (Python + Power BI only)
+### 💡 Key Insights Found
+
+- **38.8% Cancellation Rate** - Main supply chain problem
+- **Dallas TX** is top shipping origin (326)
+- **TEXAS** is top destination state
+- Mexico 486 vs USA 478 shipments
+
+### ▶️ How to Run
+
+1. Open `Hunter project.ipynb` in Jupyter
+2. Run cells - generates 1025 → cleans to 964
+3. Open `Hunter power BI project.pbix` in Power BI Desktop
+4. Refresh with `hunter_cleaned.csv`
+
+---
+**Gloris Paulraj | Hamilton, ON**
+LinkedIn: https://www.linkedin.com/in/gloris-paulraj-9302009b/
