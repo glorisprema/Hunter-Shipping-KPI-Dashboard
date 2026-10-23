@@ -1,0 +1,965 @@
+Shipment_ID,Order_Date,Origin_Warehouse,Destination_State,Destination_Country,Customer_Name,Product_Category,Product_Name,Quantity_Units,Courier,Shipping_Cost_USD,Delivery_Status,Delay_Days
+HNT-41291,2023-03-10,Dallas TX,FLORIDA,Mexico,Sephora USA,Scent,Jasmine Scent Oil,100,  DHL,50.0,In Transit,2
+HNT-33177,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,200,DHL Parcel,300.0,Cancelled,5
+HNT-14056,2023-03-10,Dallas TX,CALIFORNIA,USA,Liverpool MX,Scent,Jasmine Scent Oil,50,FedEx Freight,300.0,In Transit,100
+HNT-20383,2023-03-10,Miami FL,NEWYORK,USA,Amazon,Soap,Shea Butter Soap,100,FedEx,250.0,Delivered,1
+HNT-28395,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Sephora USA,Balm,Menthol Balm,10,LaserShip,300.0,In Transit,0
+HNT-32040,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Amazon,Body Soap,Charcoal Body Soap,100,FEDEX,300.0,Delivered,0
+HNT-13943,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Unknown,Body Lotion,Aloe Body Lotion 500ml,50,  DHL,300.0,Delivered,5
+HNT-68379,2023-03-10,Dallas TX,NUEVO LEON,USA,Liverpool MX,Scent,Jasmine Scent Oil,100,UPS,50.0,In Transit,2
+HNT-73083,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Amazon,Balm,Menthol Balm,200,DHL Express,450.0,Cancelled,5
+HNT-67358,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,5,UPS Air,250.0,Delayed,1
+HNT-40251,2023-03-10,Guadalajara MX,TEXAS,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,200,DHL Express,300.0,In Transit,1
+HNT-25230,2023-03-10,Miami FL,TEXAS,Mexico,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,Estafeta,300.0,In Transit,5
+HNT-81671,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,200,USPS,300.0,In Transit,100
+HNT-36166,2023-03-10,Mexico City,FLORIDA,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,10,Paquete Express,300.0,Delayed,100
+HNT-89612,2023-03-10,Miami FL,CDMX,USA,Liverpool MX,Scent,Lavender Scent Spray,50,FedEx Freight,50.0,Delivered,2
+HNT-57419,2023-03-10,Miami FL,NEWYORK,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,5,FedEx,300.0,Delivered,0
+HNT-80023,2023-03-10,Miami FL,NUEVO LEON,USA,Ulta Beauty,Scent,Rose Scent Mist,10,FedEx,300.0,In Transit,0
+HNT-60736,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,50,Paquete Express,300.0,Delayed,0
+HNT-70478,2023-03-10,Miami FL,NUEVO LEON,USA,Liverpool MX,Scent,Lavender Scent Spray,10,Paquete Express,300.0,Cancelled,0
+HNT-74138,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Ulta Beauty,Soap,Shea Butter Soap,50,FedEx Freight,300.0,In Transit,5
+HNT-87428,2023-03-10,Mexico City,NUEVO LEON,Mexico,Target,Balm,Menthol Balm,5,LaserShip,300.0,Delayed,1
+HNT-22599,2023-03-10,Miami FL,JALISCO,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,50,DHL Express,450.0,Cancelled,5
+HNT-20727,2023-03-10,Mexico City,CALIFORNIA,USA,Sephora USA,Body Lotion,Mango Body Lotion,100,  DHL,50.0,Delivered,2
+HNT-45557,2023-03-10,Miami FL,TEXAS,USA,Target,Body Lotion,Aloe Body Lotion 500ml,9999,Redpack,450.0,Cancelled,2
+HNT-48947,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Unknown,Scent,Jasmine Scent Oil,10,OnTrac,450.0,Cancelled,100
+HNT-59041,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,100,LaserShip,300.0,Cancelled,100
+HNT-18594,2023-03-10,Dallas TX,FLORIDA,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,OnTrac,250.0,Cancelled,1
+HNT-37074,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Balm,Healing Balm,5,DHL Parcel,300.0,Cancelled,5
+HNT-46047,2023-03-10,Guadalajara MX,TEXAS,Mexico,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,ups,50.0,Delivered,2
+HNT-65801,2023-03-10,Dallas TX,CDMX,Mexico,Unknown,Scent,Lavender Scent Spray,5,Redpack,300.0,Delivered,2
+HNT-42583,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Liverpool MX,Balm,Menthol Balm,100,USPS Priority,300.0,Cancelled,0
+HNT-42869,2023-03-10,Mexico City,NEWYORK,Mexico,Target,Balm,Lip Balm Strawberry,200,USPS,300.0,Delivered,0
+HNT-11312,2023-03-10,Mexico City,JALISCO,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,200,OnTrac,450.0,Cancelled,0
+HNT-48753,2023-03-10,Miami FL,TEXAS,Mexico,Walmart Mexico,Body Lotion,Cocoa Body Lotion,9999,Estafeta,250.0,In Transit,0
+HNT-10697,2023-03-10,Dallas TX,JALISCO,USA,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,100,OnTrac,300.0,In Transit,5
+HNT-57339,2023-03-10,Miami FL,FLORIDA,Mexico,Target,Soap,Shea Butter Soap,100,Redpack,300.0,In Transit,5
+HNT-51483,2023-03-10,"Los Angeles, CA",TEXAS,USA,Target,Body Lotion,Aloe Body Lotion 500ml,9999,Paquete Express,450.0,Cancelled,2
+HNT-62026,2023-03-10,Dallas TX,CDMX,Mexico,Target,Body Soap,Charcoal Body Soap,5,FEDEX,300.0,In Transit,2
+HNT-56035,2023-03-10,Guadalajara MX,NEWYORK,USA,Sephora USA,Body Soap,Charcoal Body Soap,50,FEDEX,300.0,Cancelled,100
+HNT-76640,2023-03-10,Mexico City,TEXAS,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,5,FedEx Freight,300.0,Cancelled,2
+HNT-42019,2023-03-10,Mexico City,YUCATAN,USA,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,5,LaserShip,300.0,Delayed,1
+HNT-76140,2023-03-10,Miami FL,JALISCO,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,10,FedEx,300.0,Delivered,1
+HNT-11852,2023-03-10,Mexico City,NEWYORK,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,50,UPS Air,250.0,Delayed,2
+HNT-78737,2023-03-10,Dallas TX,NEWYORK,USA,Target,Scent,Rose Scent Mist,5,  DHL,300.0,In Transit,1
+HNT-79705,2023-03-10,Dallas TX,JALISCO,Mexico,Walmart Mexico,Scent,Rose Scent Mist,5,UPS Ground,300.0,Cancelled,2
+HNT-75392,2023-03-10,Mexico City,TEXAS,USA,Target,Balm,Lip Balm Strawberry,9999,DHL Express,300.0,Delayed,2
+HNT-50349,2023-03-10,Miami FL,CDMX,USA,Target,Scent,Rose Scent Mist,9999,UPS Ground,450.0,Cancelled,2
+HNT-38072,2023-03-10,Guadalajara MX,NEWYORK,USA,Unknown,Balm,Menthol Balm,5,USPS Priority,300.0,Cancelled,100
+HNT-39711,2023-03-10,Mexico City,TEXAS,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,100,USPS,250.0,In Transit,2
+HNT-81701,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Amazon,Soap,Shea Butter Soap,100,dhl,300.0,Delayed,1
+HNT-32822,2023-03-10,Dallas TX,FLORIDA,USA,Walmart Mexico,Balm,Healing Balm,200,Redpack,450.0,Cancelled,5
+HNT-31080,2023-03-10,Guadalajara MX,NUEVO LEON,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,100,FedEx,300.0,Delayed,2
+HNT-62270,2023-03-10,Miami FL,CDMX,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,10,UPS Air,450.0,Delivered,2
+HNT-58969,2023-03-10,Miami FL,YUCATAN,USA,Unknown,Scent,Rose Scent Mist,200,  DHL,300.0,Cancelled,5
+HNT-67536,2023-03-10,Mexico City,CALIFORNIA,USA,Liverpool MX,Balm,Menthol Balm,50,FEDEX,300.0,Delivered,100
+HNT-20900,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,9999,UPS Air,300.0,Cancelled,5
+HNT-63294,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Sephora USA,Body Lotion,Cocoa Body Lotion,100,FedEx,50.0,In Transit,1
+HNT-23026,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Walmart Mexico,Soap,Shea Butter Soap,9999,DHL Parcel,300.0,Cancelled,2
+HNT-47325,2023-03-10,Miami FL,JALISCO,Mexico,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,5,UPS Air,300.0,Cancelled,1
+HNT-58890,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Sephora USA,Balm,Healing Balm,5,DHL Express,50.0,Cancelled,5
+HNT-40742,2023-03-10,Dallas TX,CDMX,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,5,UPS Air,450.0,Delayed,1
+HNT-60058,2023-03-10,Miami FL,NEWYORK,Mexico,Target,Scent,Jasmine Scent Oil,10,Estafeta,300.0,Delivered,5
+HNT-75038,2023-03-10,Mexico City,FLORIDA,USA,Target,Scent,Lavender Scent Spray,9999,FedEx,300.0,In Transit,2
+HNT-65417,2023-03-10,Dallas TX,CALIFORNIA,USA,Target,Balm,Menthol Balm,100,FEDEX,450.0,In Transit,0
+HNT-31524,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Ulta Beauty,Balm,Menthol Balm,100,UPS,300.0,Delayed,5
+HNT-53543,2023-03-10,Dallas TX,TEXAS,USA,Unknown,Soap,Shea Butter Soap,200,OnTrac,450.0,Cancelled,5
+HNT-34678,2023-03-10,"Los Angeles, CA",CDMX,USA,Walmart Mexico,Scent,Lavender Scent Spray,10,Paquete Express,300.0,In Transit,5
+HNT-37124,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Sephora USA,Soap,Shea Butter Soap,100,UPS Air,50.0,Cancelled,100
+HNT-51119,2023-03-10,Miami FL,NUEVO LEON,USA,Liverpool MX,Body Soap,Vanilla Body Soap Bar,100,DHL Parcel,300.0,Delayed,1
+HNT-30264,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Ulta Beauty,Scent,Rose Scent Mist,9999,LaserShip,450.0,In Transit,0
+HNT-51017,2023-03-10,Dallas TX,CDMX,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,100,FedEx,300.0,Cancelled,0
+HNT-69032,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Target,Balm,Menthol Balm,10,dhl,300.0,Cancelled,100
+HNT-42713,2023-03-10,Miami FL,FLORIDA,USA,Walmart Mexico,Scent,Lavender Scent Spray,100,UPS Air,300.0,Delayed,5
+HNT-74133,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Balm,Healing Balm,200,UPS Ground,50.0,Delivered,1
+HNT-27855,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Ulta Beauty,Balm,Lip Balm Strawberry,100,UPS,250.0,Delayed,2
+HNT-16425,2023-03-10,Dallas TX,NEWYORK,USA,Liverpool MX,Balm,Healing Balm,100,Redpack,450.0,Cancelled,2
+HNT-14523,2023-03-10,Miami FL,CALIFORNIA,USA,Walmart Mexico,Balm,Healing Balm,5,USPS Priority,300.0,Cancelled,100
+HNT-78978,2023-03-10,"Los Angeles, CA",NEWYORK,Mexico,Target,Body Lotion,Cocoa Body Lotion,100,FedEx,300.0,Delivered,1
+HNT-38977,2023-03-10,Dallas TX,NEWYORK,USA,Unknown,Soap,Shea Butter Soap,10,FedEx Freight,250.0,Delivered,0
+HNT-23752,2023-03-10,Dallas TX,CALIFORNIA,USA,Liverpool MX,Scent,Rose Scent Mist,200,DHL Express,450.0,Cancelled,2
+HNT-39633,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Sephora USA,Scent,Rose Scent Mist,50,USPS Priority,300.0,Delayed,2
+HNT-30233,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Walmart Mexico,Scent,Rose Scent Mist,10,Paquete Express,300.0,Delivered,2
+HNT-50088,2023-03-10,Miami FL,CDMX,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,10,DHL Express,300.0,Cancelled,1
+HNT-82295,2023-03-10,Mexico City,CALIFORNIA,USA,Liverpool MX,Balm,Menthol Balm,10,Estafeta,300.0,Delivered,100
+HNT-23076,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Body Soap,Vanilla Body Soap Bar,200,UPS,50.0,Delayed,2
+HNT-55209,2023-03-10,Dallas TX,CDMX,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,200,UPS,300.0,Cancelled,2
+HNT-60610,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Balm,Healing Balm,100,UPS,450.0,In Transit,2
+HNT-47531,2023-03-10,Guadalajara MX,TEXAS,Mexico,Unknown,Body Soap,Charcoal Body Soap,100,USPS,450.0,Cancelled,2
+HNT-76858,2023-03-10,Dallas TX,NUEVO LEON,USA,Ulta Beauty,Soap,Shea Butter Soap,100,USPS,300.0,Delayed,2
+HNT-27362,2023-03-10,Dallas TX,CDMX,USA,Walmart Mexico,Body Lotion,Cocoa Body Lotion,9999,UPS Air,450.0,In Transit,2
+HNT-21412,2023-03-10,Guadalajara MX,JALISCO,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,200,dhl,450.0,Cancelled,0
+HNT-58103,2023-03-10,Mexico City,CALIFORNIA,Mexico,Ulta Beauty,Body Lotion,Cocoa Body Lotion,50,  DHL,450.0,Delayed,0
+HNT-22787,2023-03-10,Mexico City,NUEVO LEON,USA,Sephora USA,Balm,Menthol Balm,50,DHL Parcel,300.0,Cancelled,2
+HNT-13890,2023-03-10,Miami FL,JALISCO,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,50,FEDEX,450.0,Delayed,1
+HNT-78819,2023-03-10,Guadalajara MX,TEXAS,USA,Unknown,Body Lotion,Cocoa Body Lotion,100,FEDEX,450.0,Delayed,100
+HNT-63808,2023-03-10,Miami FL,CALIFORNIA,USA,Ulta Beauty,Balm,Healing Balm,50,FedEx,250.0,Delayed,5
+HNT-27478,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,50,Paquete Express,450.0,Delivered,5
+HNT-73991,2023-03-10,Dallas TX,FLORIDA,Mexico,Target,Balm,Lip Balm Strawberry,100,UPS Ground,50.0,Cancelled,100
+HNT-83831,2023-03-10,Mexico City,NEWYORK,USA,Amazon,Balm,Healing Balm,50,UPS Air,300.0,Delayed,5
+HNT-54930,2023-03-10,Miami FL,YUCATAN,USA,Unknown,Scent,Rose Scent Mist,100,ups,450.0,Cancelled,2
+HNT-58394,2023-03-10,"Los Angeles, CA",TEXAS,USA,Sephora USA,Balm,Healing Balm,9999,UPS Air,300.0,Delayed,2
+HNT-63106,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Balm,Healing Balm,100,Paquete Express,50.0,Delivered,2
+HNT-83340,2023-03-10,Guadalajara MX,TEXAS,Mexico,Target,Body Soap,Charcoal Body Soap,200,UPS Ground,250.0,Cancelled,5
+HNT-71533,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,5,Paquete Express,300.0,Cancelled,2
+HNT-60478,2023-03-10,Miami FL,NEWYORK,USA,Target,Body Lotion,Cocoa Body Lotion,10,LaserShip,50.0,In Transit,100
+HNT-48350,2023-03-10,Mexico City,NEWYORK,Mexico,Sephora USA,Balm,Healing Balm,10,UPS Air,300.0,In Transit,1
+HNT-38327,2023-03-10,Dallas TX,CDMX,Mexico,Target,Scent,Rose Scent Mist,200,USPS Priority,300.0,Cancelled,2
+HNT-19695,2023-03-10,"Los Angeles, CA",JALISCO,USA,Unknown,Balm,Menthol Balm,100,USPS,300.0,Cancelled,2
+HNT-73828,2023-03-10,Dallas TX,CDMX,USA,Target,Body Lotion,Cocoa Body Lotion,9999,FedEx Freight,300.0,Cancelled,5
+HNT-67291,2023-03-10,Guadalajara MX,NUEVO LEON,USA,Walmart Mexico,Body Lotion,Mango Body Lotion,100,UPS Air,300.0,Cancelled,100
+HNT-23792,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Ulta Beauty,Balm,Lip Balm Strawberry,100,USPS Priority,50.0,Delivered,2
+HNT-72905,2023-03-10,Dallas TX,JALISCO,Mexico,Sephora USA,Scent,Rose Scent Mist,200,Redpack,250.0,Delivered,100
+HNT-31918,2023-03-10,Mexico City,FLORIDA,Mexico,Amazon,Scent,Rose Scent Mist,5,USPS Priority,250.0,Cancelled,5
+HNT-46404,2023-03-10,"Los Angeles, CA",NUEVO LEON,USA,Target,Soap,Shea Butter Soap,100,USPS,450.0,Cancelled,100
+HNT-20461,2023-03-10,Mexico City,CALIFORNIA,USA,Unknown,Body Lotion,Cocoa Body Lotion,100,  DHL,300.0,Cancelled,0
+HNT-67960,2023-03-10,Mexico City,YUCATAN,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,9999,estafeta ,300.0,In Transit,0
+HNT-13126,2023-03-10,Mexico City,TEXAS,Mexico,Target,Body Lotion,Mango Body Lotion,9999,UPS,300.0,Delayed,2
+HNT-87162,2023-03-10,Dallas TX,NUEVO LEON,USA,Amazon,Balm,Healing Balm,5,UPS Air,300.0,Cancelled,5
+HNT-72451,2023-03-10,Dallas TX,FLORIDA,USA,Amazon,Body Lotion,Cocoa Body Lotion,100,DHL Express,300.0,In Transit,2
+HNT-47540,2023-03-10,Dallas TX,NUEVO LEON,USA,Walmart Mexico,Scent,Rose Scent Mist,50,FEDEX,50.0,In Transit,1
+HNT-27752,2023-03-10,Miami FL,TEXAS,Mexico,Walmart Mexico,Body Lotion,Cocoa Body Lotion,9999,  DHL,50.0,Delivered,100
+HNT-82274,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Target,Soap,Shea Butter Soap,10,dhl,300.0,Delayed,2
+HNT-22610,2023-03-10,Guadalajara MX,FLORIDA,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,50,FedEx Freight,450.0,Delayed,100
+HNT-59391,2023-03-10,Dallas TX,CALIFORNIA,USA,Sephora USA,Scent,Rose Scent Mist,10,ups,300.0,Cancelled,0
+HNT-61155,2023-03-10,Mexico City,CDMX,USA,Unknown,Scent,Lavender Scent Spray,100,FedEx Freight,300.0,Delivered,1
+HNT-71173,2023-03-10,Miami FL,NEWYORK,Mexico,Liverpool MX,Scent,Lavender Scent Spray,50,UPS Ground,50.0,Cancelled,100
+HNT-67252,2023-03-10,Miami FL,NUEVO LEON,USA,Liverpool MX,Balm,Lip Balm Strawberry,50,DHL Parcel,250.0,Delayed,2
+HNT-27718,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Balm,Menthol Balm,200,DHL Parcel,250.0,Delivered,2
+HNT-57818,2023-03-10,"Los Angeles, CA",NEWYORK,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,10,FEDEX,450.0,Delayed,2
+HNT-82723,2023-03-10,"Los Angeles, CA",NUEVO LEON,Mexico,Liverpool MX,Scent,Lavender Scent Spray,100,FedEx,300.0,Cancelled,2
+HNT-61778,2023-03-10,Mexico City,CALIFORNIA,USA,Ulta Beauty,Soap,Shea Butter Soap,10,Redpack,250.0,Cancelled,5
+HNT-15838,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Unknown,Scent,Rose Scent Mist,200,FedEx Freight,300.0,In Transit,0
+HNT-31338,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Liverpool MX,Body Lotion,Mango Body Lotion,50,UPS Air,300.0,In Transit,2
+HNT-11400,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Target,Soap,Shea Butter Soap,200,DHL Parcel,300.0,Delayed,2
+HNT-49574,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Scent,Rose Scent Mist,200,DHL Parcel,450.0,In Transit,0
+HNT-16412,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Body Lotion,Mango Body Lotion,200,UPS Air,300.0,In Transit,100
+HNT-61049,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Balm,Menthol Balm,9999,OnTrac,450.0,Cancelled,2
+HNT-35127,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Target,Body Lotion,Aloe Body Lotion 500ml,100,dhl,300.0,Cancelled,2
+HNT-58520,2023-03-10,Mexico City,JALISCO,Mexico,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,FEDEX,300.0,Delayed,0
+HNT-35020,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,5,estafeta ,450.0,Cancelled,2
+HNT-26399,2023-03-10,Miami FL,FLORIDA,USA,Amazon,Scent,Rose Scent Mist,200,USPS,50.0,Delivered,0
+HNT-55127,2023-03-10,Dallas TX,TEXAS,Mexico,Target,Balm,Menthol Balm,50,UPS Air,450.0,Delayed,5
+HNT-31039,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Sephora USA,Scent,Jasmine Scent Oil,5,FEDEX,300.0,Delayed,2
+HNT-75183,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Body Soap,Vanilla Body Soap Bar,9999,estafeta ,250.0,Delivered,2
+HNT-14959,2023-03-10,Dallas TX,NEWYORK,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,10,UPS Air,250.0,Cancelled,1
+HNT-13553,2023-03-10,Mexico City,TEXAS,USA,Amazon,Body Soap,Charcoal Body Soap,100,Paquete Express,50.0,Cancelled,2
+HNT-14976,2023-03-10,Dallas TX,JALISCO,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,5,DHL Parcel,300.0,Delayed,2
+HNT-18881,2023-03-10,Mexico City,TEXAS,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,200,Paquete Express,300.0,Delivered,0
+HNT-10907,2023-03-10,Miami FL,TEXAS,Mexico,Target,Scent,Rose Scent Mist,100,  DHL,450.0,In Transit,0
+HNT-54183,2023-03-10,Guadalajara MX,CDMX,USA,Amazon,Balm,Lip Balm Strawberry,100,FEDEX,50.0,In Transit,100
+HNT-80455,2023-03-10,Dallas TX,NEWYORK,USA,Target,Body Soap,Vanilla Body Soap Bar,50,  DHL,250.0,Delayed,1
+HNT-10717,2023-03-10,Guadalajara MX,JALISCO,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,200,LaserShip,300.0,Delivered,5
+HNT-87792,2023-03-10,"Los Angeles, CA",JALISCO,USA,Ulta Beauty,Scent,Lavender Scent Spray,200,dhl,300.0,Delayed,100
+HNT-14798,2023-03-10,Dallas TX,TEXAS,USA,Ulta Beauty,Soap,Shea Butter Soap,10,Redpack,300.0,Cancelled,0
+HNT-27351,2023-03-10,Dallas TX,YUCATAN,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,5,  DHL,300.0,Delayed,0
+HNT-79111,2023-03-10,Miami FL,FLORIDA,Mexico,Amazon,Body Soap,Charcoal Body Soap,5,FEDEX,300.0,Cancelled,2
+HNT-82199,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Balm,Menthol Balm,100,ups,300.0,Cancelled,1
+HNT-17399,2023-03-10,Mexico City,FLORIDA,USA,Walmart Mexico,Balm,Healing Balm,100,FedEx Freight,50.0,In Transit,100
+HNT-67124,2023-03-10,Mexico City,JALISCO,USA,Sephora USA,Soap,Shea Butter Soap,5,Estafeta,250.0,Cancelled,2
+HNT-65972,2023-03-10,Mexico City,CALIFORNIA,Mexico,Unknown,Soap,Shea Butter Soap,50,DHL Express,300.0,Cancelled,100
+HNT-12072,2023-03-10,Mexico City,CALIFORNIA,USA,Sephora USA,Balm,Healing Balm,10,UPS Ground,450.0,Delayed,2
+HNT-81550,2023-03-10,Dallas TX,TEXAS,USA,Target,Balm,Lip Balm Strawberry,50,FedEx,250.0,In Transit,5
+HNT-12052,2023-03-10,Mexico City,NUEVO LEON,Mexico,Liverpool MX,Soap,Shea Butter Soap,200,USPS,250.0,Cancelled,5
+HNT-60907,2023-03-10,Miami FL,CALIFORNIA,USA,Ulta Beauty,Balm,Lip Balm Strawberry,5,UPS Ground,300.0,Cancelled,5
+HNT-81039,2023-03-10,Miami FL,TEXAS,USA,Walmart Mexico,Balm,Healing Balm,200,OnTrac,250.0,In Transit,0
+HNT-26616,2023-03-10,"Los Angeles, CA",NEWYORK,Mexico,Unknown,Body Lotion,Mango Body Lotion,50,estafeta ,450.0,Cancelled,1
+HNT-59751,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Unknown,Soap,Shea Butter Soap,100,FedEx,300.0,Cancelled,5
+HNT-58618,2023-03-10,Dallas TX,FLORIDA,Mexico,Target,Body Lotion,Cocoa Body Lotion,100,DHL Parcel,300.0,Delivered,2
+HNT-58274,2023-03-10,Mexico City,CDMX,USA,Target,Scent,Jasmine Scent Oil,9999,estafeta ,300.0,Cancelled,5
+HNT-39962,2023-03-10,Dallas TX,NEWYORK,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,10,dhl,450.0,Delivered,100
+HNT-31615,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Sephora USA,Soap,Shea Butter Soap,10,DHL Express,450.0,Cancelled,2
+HNT-60398,2023-03-10,Miami FL,CDMX,Mexico,Unknown,Balm,Menthol Balm,5,estafeta ,250.0,Cancelled,100
+HNT-37584,2023-03-10,Guadalajara MX,CDMX,Mexico,Amazon,Scent,Rose Scent Mist,100,USPS Priority,50.0,In Transit,5
+HNT-16686,2023-03-10,Guadalajara MX,NEWYORK,USA,Walmart Mexico,Body Lotion,Cocoa Body Lotion,200,USPS Priority,300.0,Cancelled,2
+HNT-79384,2023-03-10,Mexico City,TEXAS,Mexico,Sephora USA,Scent,Rose Scent Mist,50,UPS Air,250.0,Delivered,2
+HNT-30718,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Ulta Beauty,Scent,Jasmine Scent Oil,200,UPS,50.0,In Transit,5
+HNT-22153,2023-03-10,Mexico City,CALIFORNIA,Mexico,Sephora USA,Scent,Rose Scent Mist,100,DHL Parcel,300.0,Delivered,100
+HNT-86687,2023-03-10,Mexico City,JALISCO,USA,Sephora USA,Balm,Menthol Balm,9999,UPS Air,450.0,Cancelled,0
+HNT-85213,2023-03-10,Dallas TX,FLORIDA,Mexico,Ulta Beauty,Soap,Shea Butter Soap,5,USPS,300.0,Delivered,100
+HNT-69897,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,200,UPS Ground,250.0,Delayed,5
+HNT-53237,2023-03-10,Mexico City,CDMX,USA,Ulta Beauty,Body Soap,Charcoal Body Soap,5,  DHL,250.0,Delayed,0
+HNT-67051,2023-03-10,Guadalajara MX,FLORIDA,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,10,ups,50.0,Delivered,0
+HNT-71600,2023-03-10,Guadalajara MX,FLORIDA,USA,Walmart Mexico,Scent,Lavender Scent Spray,200,OnTrac,50.0,Cancelled,100
+HNT-38525,2023-03-10,Dallas TX,TEXAS,USA,Sephora USA,Scent,Lavender Scent Spray,9999,UPS Air,50.0,Delayed,2
+HNT-59476,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,5,DHL Express,300.0,Delayed,100
+HNT-37879,2023-03-10,Miami FL,TEXAS,USA,Sephora USA,Scent,Lavender Scent Spray,200,FEDEX,300.0,In Transit,100
+HNT-50852,2023-03-10,Dallas TX,TEXAS,Mexico,Ulta Beauty,Balm,Lip Balm Strawberry,5,UPS Air,50.0,Delayed,100
+HNT-35054,2023-03-10,Dallas TX,YUCATAN,USA,Target,Balm,Lip Balm Strawberry,5,dhl,300.0,Cancelled,100
+HNT-33928,2023-03-10,Guadalajara MX,JALISCO,Mexico,Ulta Beauty,Balm,Menthol Balm,10,Estafeta,450.0,Delayed,5
+HNT-68080,2023-03-10,Mexico City,NEWYORK,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,200,estafeta ,300.0,In Transit,2
+HNT-88622,2023-03-10,Guadalajara MX,NEWYORK,Mexico,Walmart Mexico,Balm,Healing Balm,5,dhl,450.0,Cancelled,100
+HNT-22119,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Sephora USA,Body Lotion,Mango Body Lotion,50,Estafeta,300.0,In Transit,2
+HNT-85629,2023-03-10,"Los Angeles, CA",NEWYORK,Mexico,Target,Balm,Menthol Balm,200,DHL Parcel,50.0,Delivered,2
+HNT-21950,2023-03-10,Dallas TX,FLORIDA,USA,Unknown,Scent,Jasmine Scent Oil,9999,DHL Parcel,300.0,Cancelled,5
+HNT-73964,2023-03-10,Miami FL,NEWYORK,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,50,USPS Priority,250.0,In Transit,0
+HNT-88556,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Unknown,Body Lotion,Mango Body Lotion,9999,FEDEX,300.0,In Transit,0
+HNT-82398,2023-03-10,"Los Angeles, CA",NUEVO LEON,USA,Target,Body Soap,Vanilla Body Soap Bar,200,Redpack,450.0,Delivered,0
+HNT-42059,2023-03-10,Miami FL,CDMX,Mexico,Target,Balm,Menthol Balm,200,FEDEX,300.0,Cancelled,1
+HNT-89373,2023-03-10,Guadalajara MX,TEXAS,USA,Liverpool MX,Soap,Shea Butter Soap,100,estafeta ,450.0,Cancelled,2
+HNT-48285,2023-03-10,Dallas TX,YUCATAN,USA,Unknown,Scent,Jasmine Scent Oil,10,ups,450.0,Cancelled,100
+HNT-71038,2023-03-10,Dallas TX,YUCATAN,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,50,LaserShip,300.0,In Transit,2
+HNT-48302,2023-03-10,Mexico City,TEXAS,USA,Amazon,Scent,Rose Scent Mist,50,FedEx,450.0,Delayed,100
+HNT-18551,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Sephora USA,Soap,Shea Butter Soap,10,DHL Parcel,300.0,Delayed,5
+HNT-61251,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Sephora USA,Body Lotion,Mango Body Lotion,9999,UPS Air,250.0,Delayed,100
+HNT-83846,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Liverpool MX,Scent,Lavender Scent Spray,100,Redpack,300.0,In Transit,5
+HNT-70316,2023-03-10,Mexico City,JALISCO,USA,Target,Scent,Lavender Scent Spray,100,UPS Air,50.0,Delivered,2
+HNT-75470,2023-03-10,Dallas TX,CDMX,Mexico,Amazon,Balm,Healing Balm,10,OnTrac,300.0,Delayed,2
+HNT-22792,2023-03-10,Dallas TX,CDMX,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,50,Redpack,300.0,In Transit,1
+HNT-68222,2023-03-10,Miami FL,CALIFORNIA,USA,Walmart Mexico,Scent,Jasmine Scent Oil,5,Paquete Express,300.0,Delivered,100
+HNT-68947,2023-03-10,"Los Angeles, CA",TEXAS,USA,Walmart Mexico,Scent,Jasmine Scent Oil,9999,LaserShip,250.0,In Transit,100
+HNT-53174,2023-03-10,Dallas TX,NEWYORK,Mexico,Target,Balm,Lip Balm Strawberry,100,estafeta ,300.0,Delayed,0
+HNT-69214,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Ulta Beauty,Body Lotion,Mango Body Lotion,5,ups,300.0,Delayed,2
+HNT-39740,2023-03-10,Mexico City,CDMX,USA,Amazon,Scent,Rose Scent Mist,10,Redpack,50.0,In Transit,5
+HNT-11830,2023-03-10,Guadalajara MX,JALISCO,USA,Unknown,Scent,Jasmine Scent Oil,100,Estafeta,450.0,Cancelled,100
+HNT-83088,2023-03-10,Mexico City,FLORIDA,USA,Sephora USA,Body Lotion,Mango Body Lotion,100,  DHL,250.0,Cancelled,0
+HNT-15695,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Scent,Lavender Scent Spray,100,OnTrac,300.0,Cancelled,100
+HNT-30463,2023-03-10,Mexico City,FLORIDA,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,5,Redpack,250.0,In Transit,0
+HNT-83052,2023-03-10,Miami FL,CALIFORNIA,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,100,ups,50.0,Cancelled,2
+HNT-20551,2023-03-10,Miami FL,NUEVO LEON,Mexico,Ulta Beauty,Body Soap,Charcoal Body Soap,50,dhl,300.0,Delayed,5
+HNT-43412,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Balm,Lip Balm Strawberry,100,DHL Parcel,50.0,Delivered,2
+HNT-55300,2023-03-10,Dallas TX,FLORIDA,Mexico,Ulta Beauty,Scent,Lavender Scent Spray,200,  DHL,450.0,In Transit,2
+HNT-23880,2023-03-10,Dallas TX,NUEVO LEON,USA,Liverpool MX,Body Soap,Vanilla Body Soap Bar,5,DHL Parcel,300.0,Cancelled,2
+HNT-59397,2023-03-10,Guadalajara MX,JALISCO,Mexico,Target,Soap,Shea Butter Soap,5,Paquete Express,300.0,Cancelled,100
+HNT-24908,2023-03-10,Mexico City,CALIFORNIA,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,100,DHL Express,300.0,In Transit,1
+HNT-13088,2023-03-10,Miami FL,CALIFORNIA,Mexico,Target,Balm,Lip Balm Strawberry,50,FedEx Freight,300.0,In Transit,5
+HNT-84513,2023-03-10,Dallas TX,FLORIDA,Mexico,Walmart Mexico,Scent,Lavender Scent Spray,50,  DHL,300.0,Delayed,5
+HNT-56985,2023-03-10,Dallas TX,NUEVO LEON,USA,Unknown,Body Soap,Vanilla Body Soap Bar,200,ups,50.0,Cancelled,2
+HNT-64233,2023-03-10,Guadalajara MX,CDMX,Mexico,Liverpool MX,Scent,Lavender Scent Spray,9999,OnTrac,50.0,Delivered,0
+HNT-51091,2023-03-10,Dallas TX,NUEVO LEON,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,5,UPS Ground,300.0,Cancelled,0
+HNT-15340,2023-03-10,Dallas TX,TEXAS,Mexico,Target,Body Soap,Charcoal Body Soap,10,OnTrac,300.0,In Transit,100
+HNT-13710,2023-03-10,Miami FL,CDMX,USA,Amazon,Body Soap,Vanilla Body Soap Bar,10,Redpack,300.0,Delivered,2
+HNT-72273,2023-03-10,Dallas TX,JALISCO,USA,Sephora USA,Body Lotion,Mango Body Lotion,9999,UPS Ground,300.0,Delivered,5
+HNT-10523,2023-03-10,Miami FL,JALISCO,USA,Walmart Mexico,Body Lotion,Cocoa Body Lotion,5,FedEx Freight,300.0,Cancelled,5
+HNT-61678,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Balm,Menthol Balm,50,ups,300.0,Delayed,5
+HNT-23476,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Unknown,Soap,Shea Butter Soap,100,DHL Express,300.0,Cancelled,2
+HNT-79982,2023-03-10,Dallas TX,NEWYORK,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,50,DHL Parcel,250.0,Delivered,2
+HNT-65200,2023-03-10,Mexico City,CALIFORNIA,Mexico,Target,Body Soap,Charcoal Body Soap,200,DHL Parcel,450.0,Cancelled,0
+HNT-59800,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Walmart Mexico,Body Soap,Charcoal Body Soap,100,FedEx,450.0,In Transit,5
+HNT-87257,2023-03-10,Mexico City,CALIFORNIA,USA,Ulta Beauty,Body Soap,Charcoal Body Soap,50,dhl,300.0,Delivered,1
+HNT-30999,2023-03-10,Dallas TX,CALIFORNIA,USA,Target,Balm,Menthol Balm,100,FedEx Freight,300.0,Cancelled,2
+HNT-40404,2023-03-10,Dallas TX,TEXAS,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,FedEx Freight,300.0,Cancelled,0
+HNT-63376,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Scent,Lavender Scent Spray,100,UPS Air,450.0,In Transit,2
+HNT-75416,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Sephora USA,Balm,Lip Balm Strawberry,50,USPS Priority,300.0,Delivered,1
+HNT-47242,2023-03-10,Guadalajara MX,JALISCO,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,50,Redpack,250.0,Cancelled,2
+HNT-74681,2023-03-10,Miami FL,TEXAS,USA,Target,Balm,Menthol Balm,5,OnTrac,300.0,Cancelled,1
+HNT-13775,2023-03-10,"Los Angeles, CA",TEXAS,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,200,FedEx,50.0,In Transit,2
+HNT-84829,2023-03-10,Mexico City,TEXAS,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,100,DHL Express,250.0,Cancelled,1
+HNT-49783,2023-03-10,Miami FL,YUCATAN,USA,Unknown,Balm,Healing Balm,100,UPS Air,250.0,Delivered,1
+HNT-86671,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Ulta Beauty,Soap,Shea Butter Soap,9999,dhl,50.0,Delivered,0
+HNT-86323,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Amazon,Scent,Lavender Scent Spray,200,estafeta ,300.0,Cancelled,1
+HNT-83631,2023-03-10,Miami FL,TEXAS,Mexico,Walmart Mexico,Body Soap,Charcoal Body Soap,50,UPS Ground,300.0,Delivered,2
+HNT-51981,2023-03-10,Miami FL,CALIFORNIA,USA,Liverpool MX,Scent,Rose Scent Mist,9999,Redpack,50.0,Cancelled,1
+HNT-59924,2023-03-10,Mexico City,NUEVO LEON,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,5,USPS Priority,300.0,Cancelled,100
+HNT-76352,2023-03-10,Mexico City,TEXAS,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,100,UPS Air,300.0,Delivered,1
+HNT-56063,2023-03-10,Guadalajara MX,TEXAS,USA,Amazon,Scent,Lavender Scent Spray,200,DHL Parcel,50.0,Delivered,100
+HNT-81870,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Amazon,Scent,Rose Scent Mist,10,Redpack,300.0,Delivered,0
+HNT-32396,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Soap,Shea Butter Soap,9999,estafeta ,250.0,Cancelled,1
+HNT-71642,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Scent,Rose Scent Mist,200,OnTrac,250.0,Cancelled,100
+HNT-66372,2023-03-10,Guadalajara MX,NUEVO LEON,USA,Amazon,Balm,Menthol Balm,10,Paquete Express,300.0,Delayed,2
+HNT-14771,2023-03-10,Dallas TX,CDMX,Mexico,Unknown,Scent,Lavender Scent Spray,10,USPS Priority,300.0,Cancelled,2
+HNT-49403,2023-03-10,Miami FL,TEXAS,Mexico,Ulta Beauty,Balm,Lip Balm Strawberry,5,UPS Air,450.0,In Transit,2
+HNT-27046,2023-03-10,Mexico City,FLORIDA,USA,Target,Balm,Menthol Balm,9999,USPS Priority,50.0,Cancelled,5
+HNT-27836,2023-03-10,Dallas TX,CDMX,USA,Amazon,Body Soap,Vanilla Body Soap Bar,100,FedEx,450.0,Cancelled,2
+HNT-20318,2023-03-10,Guadalajara MX,TEXAS,Mexico,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,50,DHL Express,250.0,Delayed,100
+HNT-39580,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Scent,Lavender Scent Spray,50,UPS Air,450.0,Delayed,100
+HNT-71033,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,100,LaserShip,250.0,Cancelled,1
+HNT-36556,2023-03-10,Dallas TX,FLORIDA,Mexico,Liverpool MX,Balm,Menthol Balm,200,estafeta ,250.0,In Transit,100
+HNT-79082,2023-03-10,Guadalajara MX,TEXAS,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,200,LaserShip,50.0,Delayed,2
+HNT-22228,2023-03-10,Mexico City,TEXAS,Mexico,Amazon,Body Soap,Charcoal Body Soap,10,USPS Priority,450.0,Delayed,5
+HNT-63893,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Target,Balm,Menthol Balm,200,estafeta ,300.0,Cancelled,2
+HNT-87584,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,10,UPS,250.0,Delivered,2
+HNT-82314,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Amazon,Body Soap,Vanilla Body Soap Bar,100,estafeta ,300.0,Delivered,100
+HNT-68780,2023-03-10,Mexico City,TEXAS,USA,Target,Balm,Healing Balm,10,  DHL,250.0,Cancelled,0
+HNT-32160,2023-03-10,Mexico City,CALIFORNIA,USA,Unknown,Scent,Rose Scent Mist,9999,Estafeta,50.0,Delivered,2
+HNT-18540,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,50,Estafeta,300.0,Delayed,1
+HNT-49487,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Walmart Mexico,Scent,Rose Scent Mist,100,USPS Priority,300.0,In Transit,1
+HNT-23171,2023-03-10,Miami FL,TEXAS,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,100,estafeta ,250.0,In Transit,2
+HNT-43440,2023-03-10,Miami FL,CALIFORNIA,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,9999,FEDEX,250.0,Delivered,1
+HNT-52238,2023-03-10,Miami FL,TEXAS,USA,Amazon,Scent,Lavender Scent Spray,5,USPS,300.0,In Transit,0
+HNT-73851,2023-03-10,"Los Angeles, CA",JALISCO,USA,Target,Soap,Shea Butter Soap,100,Estafeta,50.0,Cancelled,1
+HNT-38662,2023-03-10,Miami FL,JALISCO,USA,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,5,ups,250.0,Delayed,0
+HNT-87209,2023-03-10,Mexico City,CALIFORNIA,USA,Liverpool MX,Balm,Healing Balm,5,USPS Priority,50.0,In Transit,2
+HNT-83663,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Ulta Beauty,Body Soap,Charcoal Body Soap,50,Estafeta,300.0,Cancelled,2
+HNT-33389,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Walmart Mexico,Scent,Rose Scent Mist,5,DHL Parcel,300.0,Delayed,0
+HNT-52680,2023-03-10,Guadalajara MX,CDMX,USA,Target,Body Soap,Charcoal Body Soap,10,OnTrac,300.0,Delivered,0
+HNT-42769,2023-03-10,Dallas TX,JALISCO,Mexico,Unknown,Balm,Menthol Balm,100,DHL Express,300.0,Cancelled,1
+HNT-20194,2023-03-10,"Los Angeles, CA",NUEVO LEON,Mexico,Amazon,Scent,Jasmine Scent Oil,9999,FEDEX,50.0,In Transit,5
+HNT-21596,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Amazon,Scent,Jasmine Scent Oil,50,LaserShip,300.0,Cancelled,0
+HNT-62238,2023-03-10,Miami FL,CALIFORNIA,USA,Ulta Beauty,Soap,Shea Butter Soap,10,dhl,50.0,Delivered,2
+HNT-71959,2023-03-10,Mexico City,CDMX,Mexico,Walmart Mexico,Balm,Healing Balm,50,UPS Air,450.0,Delivered,1
+HNT-41742,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Ulta Beauty,Balm,Lip Balm Strawberry,100,UPS Air,450.0,Delayed,0
+HNT-89180,2023-03-10,Miami FL,CALIFORNIA,Mexico,Liverpool MX,Scent,Rose Scent Mist,10,  DHL,300.0,In Transit,2
+HNT-41733,2023-03-10,Mexico City,YUCATAN,Mexico,Sephora USA,Balm,Lip Balm Strawberry,100,UPS Air,50.0,In Transit,5
+HNT-49506,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Amazon,Scent,Jasmine Scent Oil,10,UPS Air,300.0,Cancelled,1
+HNT-44666,2023-03-10,Mexico City,NEWYORK,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,10,dhl,450.0,In Transit,2
+HNT-34093,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Target,Scent,Jasmine Scent Oil,50,  DHL,300.0,Cancelled,0
+HNT-31311,2023-03-10,Dallas TX,NEWYORK,USA,Unknown,Body Soap,Vanilla Body Soap Bar,100,Estafeta,300.0,In Transit,100
+HNT-39746,2023-03-10,Guadalajara MX,JALISCO,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,9999,dhl,50.0,Delayed,5
+HNT-74029,2023-03-10,Guadalajara MX,FLORIDA,USA,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,100,FedEx,450.0,Cancelled,100
+HNT-30646,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Scent,Rose Scent Mist,100,LaserShip,300.0,Cancelled,1
+HNT-73155,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Balm,Healing Balm,100,FedEx,300.0,Delivered,100
+HNT-41572,2023-03-10,Dallas TX,CALIFORNIA,USA,Liverpool MX,Scent,Lavender Scent Spray,10,estafeta ,250.0,In Transit,100
+HNT-23840,2023-03-10,Dallas TX,JALISCO,USA,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,100,  DHL,300.0,Delayed,2
+HNT-16569,2023-03-10,Dallas TX,FLORIDA,USA,Walmart Mexico,Scent,Rose Scent Mist,100,FedEx Freight,250.0,Delivered,0
+HNT-65838,2023-03-10,Mexico City,TEXAS,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,50,UPS Air,300.0,Delivered,2
+HNT-72001,2023-03-10,Mexico City,YUCATAN,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,200,USPS Priority,50.0,Cancelled,2
+HNT-11224,2023-03-10,Mexico City,YUCATAN,Mexico,Sephora USA,Balm,Menthol Balm,5,Redpack,450.0,In Transit,100
+HNT-76947,2023-03-10,Miami FL,NEWYORK,Mexico,Walmart Mexico,Balm,Menthol Balm,5,DHL Express,300.0,Delayed,2
+HNT-68867,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Unknown,Body Soap,Vanilla Body Soap Bar,100,LaserShip,300.0,In Transit,0
+HNT-72560,2023-03-10,Miami FL,CALIFORNIA,Mexico,Liverpool MX,Scent,Lavender Scent Spray,200,USPS,250.0,Delayed,0
+HNT-56205,2023-03-10,Guadalajara MX,NEWYORK,USA,Sephora USA,Balm,Lip Balm Strawberry,100,ups,300.0,In Transit,2
+HNT-59061,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Body Lotion,Mango Body Lotion,100,OnTrac,50.0,Cancelled,1
+HNT-70076,2023-03-10,Dallas TX,TEXAS,Mexico,Unknown,Balm,Lip Balm Strawberry,9999,UPS,50.0,Delivered,1
+HNT-80556,2023-03-10,Dallas TX,JALISCO,USA,Unknown,Balm,Menthol Balm,100,DHL Express,250.0,Delayed,2
+HNT-46583,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,9999,UPS,450.0,In Transit,1
+HNT-40334,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Balm,Menthol Balm,50,USPS,50.0,In Transit,2
+HNT-11788,2023-03-10,Guadalajara MX,TEXAS,USA,Sephora USA,Balm,Healing Balm,100,DHL Parcel,300.0,In Transit,100
+HNT-71321,2023-03-10,Dallas TX,FLORIDA,USA,Target,Body Lotion,Mango Body Lotion,5,dhl,250.0,Cancelled,0
+HNT-28747,2023-03-10,Dallas TX,TEXAS,USA,Walmart Mexico,Soap,Shea Butter Soap,100,UPS Ground,450.0,Delivered,5
+HNT-86734,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,10,estafeta ,450.0,Delayed,100
+HNT-11766,2023-03-10,Dallas TX,CDMX,USA,Target,Soap,Shea Butter Soap,9999,USPS,250.0,Cancelled,100
+HNT-11099,2023-03-10,Guadalajara MX,TEXAS,USA,Liverpool MX,Body Lotion,Mango Body Lotion,50,UPS Air,250.0,Cancelled,0
+HNT-57398,2023-03-10,Dallas TX,TEXAS,USA,Sephora USA,Scent,Jasmine Scent Oil,100,Paquete Express,450.0,Cancelled,0
+HNT-81996,2023-03-10,Guadalajara MX,CDMX,USA,Sephora USA,Balm,Healing Balm,50,DHL Parcel,50.0,Cancelled,0
+HNT-74902,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Ulta Beauty,Balm,Menthol Balm,100,LaserShip,300.0,In Transit,2
+HNT-38240,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Ulta Beauty,Balm,Menthol Balm,9999,  DHL,300.0,In Transit,2
+HNT-37772,2023-03-10,Mexico City,CALIFORNIA,Mexico,Walmart Mexico,Balm,Menthol Balm,100,dhl,300.0,Cancelled,5
+HNT-56217,2023-03-10,Dallas TX,NEWYORK,USA,Target,Soap,Shea Butter Soap,5,UPS,300.0,Delayed,100
+HNT-26279,2023-03-10,Mexico City,CALIFORNIA,USA,Liverpool MX,Scent,Lavender Scent Spray,10,  DHL,300.0,Delayed,2
+HNT-77825,2023-03-10,Dallas TX,FLORIDA,USA,Sephora USA,Body Lotion,Mango Body Lotion,100,ups,300.0,Delayed,5
+HNT-77696,2023-03-10,Guadalajara MX,NEWYORK,Mexico,Sephora USA,Scent,Lavender Scent Spray,9999,USPS,50.0,Cancelled,2
+HNT-16321,2023-03-10,Mexico City,TEXAS,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,5,FedEx,450.0,In Transit,0
+HNT-78348,2023-03-10,Mexico City,TEXAS,USA,Liverpool MX,Scent,Lavender Scent Spray,50,OnTrac,300.0,Cancelled,100
+HNT-55579,2023-03-10,Miami FL,NEWYORK,Mexico,Ulta Beauty,Body Lotion,Cocoa Body Lotion,100,ups,300.0,Delayed,5
+HNT-83955,2023-03-10,Dallas TX,NEWYORK,Mexico,Target,Body Soap,Charcoal Body Soap,9999,dhl,300.0,Cancelled,100
+HNT-49004,2023-03-10,Miami FL,CALIFORNIA,Mexico,Ulta Beauty,Balm,Healing Balm,200,UPS Air,450.0,Delayed,2
+HNT-76863,2023-03-10,Guadalajara MX,NUEVO LEON,USA,Target,Balm,Healing Balm,100,Redpack,300.0,Cancelled,2
+HNT-31623,2023-03-10,Miami FL,CDMX,Mexico,Sephora USA,Scent,Rose Scent Mist,50,dhl,250.0,Delivered,0
+HNT-39212,2023-03-10,Dallas TX,CALIFORNIA,USA,Liverpool MX,Scent,Rose Scent Mist,9999,LaserShip,300.0,Delivered,2
+HNT-49088,2023-03-10,Dallas TX,CDMX,Mexico,Amazon,Body Soap,Charcoal Body Soap,50,Paquete Express,250.0,Cancelled,0
+HNT-79711,2023-03-10,Mexico City,FLORIDA,Mexico,Liverpool MX,Scent,Lavender Scent Spray,5,USPS Priority,300.0,Cancelled,1
+HNT-83110,2023-03-10,Dallas TX,JALISCO,USA,Sephora USA,Scent,Jasmine Scent Oil,100,USPS,450.0,In Transit,0
+HNT-81660,2023-03-10,Dallas TX,TEXAS,Mexico,Amazon,Balm,Healing Balm,50,OnTrac,300.0,Delayed,100
+HNT-87258,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Ulta Beauty,Soap,Shea Butter Soap,10,  DHL,250.0,Delayed,2
+HNT-24148,2023-03-10,Dallas TX,YUCATAN,USA,Target,Scent,Lavender Scent Spray,100,DHL Express,300.0,Cancelled,5
+HNT-10953,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,5,Paquete Express,300.0,In Transit,1
+HNT-57031,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Amazon,Body Soap,Charcoal Body Soap,5,Paquete Express,250.0,Cancelled,2
+HNT-87899,2023-03-10,Dallas TX,TEXAS,Mexico,Unknown,Body Lotion,Mango Body Lotion,100,UPS,300.0,Delivered,2
+HNT-63626,2023-03-10,Dallas TX,YUCATAN,USA,Sephora USA,Balm,Healing Balm,5,UPS Ground,250.0,Cancelled,5
+HNT-19203,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,9999,estafeta ,450.0,Cancelled,0
+HNT-39469,2023-03-10,Guadalajara MX,YUCATAN,USA,Sephora USA,Scent,Rose Scent Mist,200,DHL Parcel,450.0,Delayed,100
+HNT-12274,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,5,UPS Ground,450.0,Delayed,2
+HNT-76555,2023-03-10,Dallas TX,TEXAS,Mexico,Unknown,Body Soap,Vanilla Body Soap Bar,200,OnTrac,300.0,Cancelled,0
+HNT-38079,2023-03-10,Mexico City,NEWYORK,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,100,FedEx,50.0,Delivered,2
+HNT-70765,2023-03-10,Dallas TX,JALISCO,Mexico,Walmart Mexico,Body Lotion,Cocoa Body Lotion,100,Paquete Express,300.0,Cancelled,100
+HNT-68601,2023-03-10,Dallas TX,NEWYORK,Mexico,Ulta Beauty,Soap,Shea Butter Soap,5,Paquete Express,300.0,Cancelled,100
+HNT-63949,2023-03-10,"Los Angeles, CA",JALISCO,USA,Sephora USA,Balm,Healing Balm,100,Paquete Express,450.0,Delivered,5
+HNT-81495,2023-03-10,Dallas TX,TEXAS,USA,Unknown,Body Soap,Vanilla Body Soap Bar,10,DHL Parcel,300.0,Cancelled,0
+HNT-35004,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Walmart Mexico,Scent,Lavender Scent Spray,5,USPS Priority,250.0,In Transit,0
+HNT-38063,2023-03-10,Mexico City,CALIFORNIA,Mexico,Amazon,Body Lotion,Mango Body Lotion,5,UPS Ground,300.0,Cancelled,0
+HNT-30519,2023-03-10,Guadalajara MX,TEXAS,USA,Unknown,Body Soap,Vanilla Body Soap Bar,200,ups,250.0,Cancelled,0
+HNT-64994,2023-03-10,Miami FL,TEXAS,USA,Sephora USA,Balm,Lip Balm Strawberry,5,dhl,300.0,In Transit,100
+HNT-52817,2023-03-10,Mexico City,YUCATAN,USA,Amazon,Scent,Rose Scent Mist,200,FedEx,300.0,Cancelled,0
+HNT-53492,2023-03-10,Guadalajara MX,TEXAS,Mexico,Amazon,Balm,Lip Balm Strawberry,100,LaserShip,300.0,Cancelled,100
+HNT-72627,2023-03-10,Guadalajara MX,TEXAS,Mexico,Liverpool MX,Balm,Menthol Balm,9999,OnTrac,450.0,Delivered,100
+HNT-34920,2023-03-10,"Los Angeles, CA",JALISCO,USA,Sephora USA,Body Lotion,Mango Body Lotion,10,FedEx Freight,50.0,Delayed,0
+HNT-74248,2023-03-10,Dallas TX,FLORIDA,Mexico,Amazon,Balm,Lip Balm Strawberry,100,UPS,50.0,Cancelled,1
+HNT-44435,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Target,Body Lotion,Cocoa Body Lotion,9999,FEDEX,300.0,Cancelled,100
+HNT-30317,2023-03-10,Dallas TX,TEXAS,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,200,Estafeta,450.0,Delayed,100
+HNT-69045,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Unknown,Scent,Lavender Scent Spray,50,ups,250.0,In Transit,0
+HNT-21574,2023-03-10,Miami FL,JALISCO,USA,Unknown,Soap,Shea Butter Soap,200,DHL Express,250.0,In Transit,100
+HNT-60100,2023-03-10,Guadalajara MX,TEXAS,USA,Unknown,Scent,Rose Scent Mist,100,Redpack,300.0,Cancelled,100
+HNT-78473,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,100,USPS,50.0,Cancelled,1
+HNT-61887,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Target,Scent,Rose Scent Mist,9999,Estafeta,250.0,Cancelled,2
+HNT-45391,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Body Lotion,Mango Body Lotion,5,UPS Air,450.0,Cancelled,2
+HNT-27893,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,9999,USPS Priority,300.0,Cancelled,5
+HNT-39306,2023-03-10,Mexico City,TEXAS,USA,Amazon,Balm,Lip Balm Strawberry,100,FedEx,50.0,Cancelled,2
+HNT-85784,2023-03-10,Mexico City,TEXAS,USA,Walmart Mexico,Body Lotion,Mango Body Lotion,5,UPS,300.0,In Transit,5
+HNT-88943,2023-03-10,Mexico City,FLORIDA,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,9999,UPS,300.0,Cancelled,100
+HNT-78003,2023-03-10,Dallas TX,CALIFORNIA,USA,Sephora USA,Balm,Healing Balm,50,LaserShip,300.0,Cancelled,2
+HNT-39849,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Balm,Lip Balm Strawberry,9999,ups,300.0,Delivered,1
+HNT-31531,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Target,Scent,Lavender Scent Spray,100,USPS Priority,300.0,In Transit,1
+HNT-40485,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Ulta Beauty,Soap,Shea Butter Soap,200,FEDEX,450.0,Cancelled,0
+HNT-74420,2023-03-10,Mexico City,YUCATAN,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,100,DHL Parcel,300.0,Delivered,2
+HNT-14254,2023-03-10,Miami FL,NUEVO LEON,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,200,UPS,450.0,Delivered,100
+HNT-83412,2023-03-10,"Los Angeles, CA",CDMX,USA,Walmart Mexico,Scent,Lavender Scent Spray,100,  DHL,50.0,Cancelled,100
+HNT-88435,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Ulta Beauty,Body Lotion,Mango Body Lotion,50,UPS,300.0,In Transit,0
+HNT-30881,2023-03-10,Mexico City,TEXAS,USA,Sephora USA,Balm,Healing Balm,100,LaserShip,50.0,Cancelled,5
+HNT-16586,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,5,UPS Air,300.0,In Transit,5
+HNT-30374,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Ulta Beauty,Balm,Menthol Balm,9999,USPS,300.0,Cancelled,100
+HNT-48971,2023-03-10,Guadalajara MX,NEWYORK,USA,Unknown,Body Lotion,Cocoa Body Lotion,100,USPS Priority,300.0,Delivered,1
+HNT-31346,2023-03-10,"Los Angeles, CA",NUEVO LEON,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,100,Paquete Express,300.0,Cancelled,2
+HNT-47338,2023-03-10,Dallas TX,CDMX,USA,Unknown,Scent,Rose Scent Mist,200,UPS,250.0,Cancelled,2
+HNT-72677,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Walmart Mexico,Scent,Jasmine Scent Oil,100,UPS Air,300.0,Cancelled,1
+HNT-73485,2023-03-10,Dallas TX,CDMX,Mexico,Target,Soap,Shea Butter Soap,5,USPS Priority,300.0,Delayed,2
+HNT-58054,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Body Lotion,Mango Body Lotion,5,Paquete Express,300.0,In Transit,5
+HNT-44235,2023-03-10,Miami FL,FLORIDA,USA,Sephora USA,Scent,Rose Scent Mist,9999,DHL Express,50.0,Cancelled,5
+HNT-17447,2023-03-10,Mexico City,JALISCO,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,9999,  DHL,300.0,Cancelled,5
+HNT-84363,2023-03-10,Mexico City,TEXAS,Mexico,Amazon,Scent,Jasmine Scent Oil,9999,UPS,450.0,In Transit,5
+HNT-64772,2023-03-10,Mexico City,YUCATAN,Mexico,Walmart Mexico,Body Soap,Charcoal Body Soap,100,UPS Air,50.0,Delayed,100
+HNT-65389,2023-03-10,"Los Angeles, CA",TEXAS,USA,Amazon,Body Lotion,Cocoa Body Lotion,200,UPS Air,450.0,Cancelled,0
+HNT-72644,2023-03-10,Dallas TX,CDMX,USA,Walmart Mexico,Balm,Healing Balm,200,UPS Air,300.0,Delivered,2
+HNT-34122,2023-03-10,Miami FL,NEWYORK,Mexico,Unknown,Scent,Lavender Scent Spray,200,UPS,50.0,In Transit,2
+HNT-27357,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Walmart Mexico,Scent,Lavender Scent Spray,5,dhl,300.0,Delayed,5
+HNT-29878,2023-03-10,Dallas TX,NUEVO LEON,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,100,Redpack,300.0,In Transit,100
+HNT-45962,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Ulta Beauty,Body Lotion,Cocoa Body Lotion,200,UPS,300.0,Delivered,100
+HNT-35421,2023-03-10,Dallas TX,YUCATAN,Mexico,Sephora USA,Balm,Menthol Balm,9999,DHL Express,50.0,Cancelled,2
+HNT-35157,2023-03-10,Miami FL,FLORIDA,USA,Unknown,Soap,Shea Butter Soap,50,FedEx Freight,300.0,Cancelled,2
+HNT-45934,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Body Lotion,Mango Body Lotion,50,FedEx Freight,50.0,Cancelled,2
+HNT-35593,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,5,UPS Ground,300.0,Cancelled,1
+HNT-86408,2023-03-10,Miami FL,TEXAS,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,50,USPS,300.0,Delivered,2
+HNT-55701,2023-03-10,Miami FL,YUCATAN,USA,Liverpool MX,Balm,Menthol Balm,9999,DHL Express,250.0,Delayed,5
+HNT-87305,2023-03-10,Dallas TX,YUCATAN,USA,Unknown,Body Lotion,Mango Body Lotion,200,Estafeta,50.0,Cancelled,0
+HNT-84199,2023-03-10,Miami FL,TEXAS,USA,Target,Balm,Menthol Balm,100,OnTrac,300.0,Cancelled,5
+HNT-42865,2023-03-10,Miami FL,CALIFORNIA,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,100,FedEx,250.0,Cancelled,1
+HNT-59788,2023-03-10,Miami FL,CALIFORNIA,Mexico,Ulta Beauty,Balm,Lip Balm Strawberry,9999,  DHL,300.0,In Transit,1
+HNT-65090,2023-03-10,Mexico City,TEXAS,USA,Walmart Mexico,Body Lotion,Cocoa Body Lotion,10,dhl,300.0,Delayed,5
+HNT-14916,2023-03-10,Miami FL,TEXAS,USA,Target,Scent,Lavender Scent Spray,10,dhl,300.0,Cancelled,2
+HNT-60757,2023-03-10,Mexico City,CALIFORNIA,Mexico,Sephora USA,Scent,Lavender Scent Spray,200,Estafeta,300.0,Delayed,1
+HNT-86487,2023-03-10,Dallas TX,NUEVO LEON,USA,Liverpool MX,Balm,Lip Balm Strawberry,200,UPS Air,300.0,Delivered,0
+HNT-84566,2023-03-10,Miami FL,CALIFORNIA,Mexico,Walmart Mexico,Scent,Rose Scent Mist,100,UPS Air,250.0,Delayed,1
+HNT-54769,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Balm,Menthol Balm,100,UPS Air,300.0,Cancelled,2
+HNT-65699,2023-03-10,Dallas TX,YUCATAN,Mexico,Amazon,Balm,Healing Balm,200,DHL Express,250.0,Cancelled,0
+HNT-50295,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Amazon,Scent,Lavender Scent Spray,50,LaserShip,300.0,In Transit,100
+HNT-78015,2023-03-10,Dallas TX,CDMX,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,100,USPS,250.0,In Transit,5
+HNT-40681,2023-03-10,Mexico City,CDMX,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,50,FedEx Freight,450.0,In Transit,2
+HNT-80134,2023-03-10,Dallas TX,CDMX,USA,Amazon,Body Lotion,Mango Body Lotion,200,UPS Air,450.0,Delayed,0
+HNT-53974,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Walmart Mexico,Balm,Healing Balm,50,FedEx Freight,50.0,Delayed,100
+HNT-33902,2023-03-10,Miami FL,CDMX,USA,Target,Body Lotion,Mango Body Lotion,10,DHL Express,300.0,Delayed,100
+HNT-26832,2023-03-10,Dallas TX,NEWYORK,USA,Sephora USA,Body Soap,Charcoal Body Soap,100,LaserShip,300.0,In Transit,2
+HNT-65803,2023-03-10,"Los Angeles, CA",NUEVO LEON,Mexico,Sephora USA,Scent,Rose Scent Mist,10,Estafeta,450.0,Delivered,5
+HNT-73561,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,200,dhl,300.0,Cancelled,100
+HNT-86864,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Target,Balm,Lip Balm Strawberry,9999,dhl,250.0,Cancelled,2
+HNT-37010,2023-03-10,Miami FL,CALIFORNIA,USA,Target,Scent,Lavender Scent Spray,5,OnTrac,450.0,Delayed,2
+HNT-70087,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,50,USPS,300.0,In Transit,2
+HNT-12949,2023-03-10,Mexico City,TEXAS,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,50,UPS Ground,300.0,Cancelled,5
+HNT-80144,2023-03-10,Mexico City,JALISCO,Mexico,Unknown,Balm,Menthol Balm,100,OnTrac,250.0,Cancelled,1
+HNT-76245,2023-03-10,Dallas TX,FLORIDA,Mexico,Sephora USA,Body Lotion,Cocoa Body Lotion,100,dhl,50.0,In Transit,2
+HNT-67384,2023-03-10,Dallas TX,NEWYORK,USA,Liverpool MX,Balm,Healing Balm,100,dhl,300.0,In Transit,0
+HNT-16750,2023-03-10,Miami FL,NUEVO LEON,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,LaserShip,300.0,Delayed,100
+HNT-29455,2023-03-10,Mexico City,CALIFORNIA,USA,Walmart Mexico,Scent,Rose Scent Mist,100,DHL Express,50.0,Cancelled,0
+HNT-65606,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,5,UPS,300.0,Cancelled,1
+HNT-23153,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Amazon,Soap,Shea Butter Soap,100,UPS Ground,300.0,Delayed,1
+HNT-12844,2023-03-10,Guadalajara MX,TEXAS,Mexico,Target,Body Lotion,Aloe Body Lotion 500ml,100,DHL Express,300.0,Delayed,0
+HNT-20212,2023-03-10,Miami FL,TEXAS,Mexico,Amazon,Balm,Lip Balm Strawberry,10,UPS Ground,450.0,Cancelled,2
+HNT-51424,2023-03-10,Dallas TX,YUCATAN,Mexico,Unknown,Scent,Lavender Scent Spray,5,UPS Air,300.0,Cancelled,0
+HNT-78758,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Walmart Mexico,Soap,Shea Butter Soap,50,FedEx,50.0,In Transit,1
+HNT-74780,2023-03-10,Mexico City,YUCATAN,USA,Walmart Mexico,Scent,Lavender Scent Spray,200,UPS Ground,450.0,In Transit,0
+HNT-13805,2023-03-10,Guadalajara MX,YUCATAN,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,100,UPS Air,300.0,Cancelled,2
+HNT-61602,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Scent,Rose Scent Mist,100,FedEx Freight,450.0,Delayed,0
+HNT-55919,2023-03-10,Mexico City,CALIFORNIA,Mexico,Walmart Mexico,Scent,Rose Scent Mist,9999,Estafeta,250.0,Delivered,2
+HNT-83091,2023-03-10,Miami FL,NEWYORK,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,10,Redpack,300.0,Delivered,100
+HNT-54845,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Body Soap,Vanilla Body Soap Bar,10,Estafeta,300.0,Cancelled,2
+HNT-28858,2023-03-10,Guadalajara MX,JALISCO,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,50,UPS Ground,450.0,Cancelled,1
+HNT-17439,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Sephora USA,Balm,Healing Balm,9999,DHL Express,300.0,Cancelled,0
+HNT-32310,2023-03-10,Mexico City,NEWYORK,USA,Walmart Mexico,Balm,Lip Balm Strawberry,100,UPS Ground,250.0,Delayed,5
+HNT-89302,2023-03-10,Mexico City,NUEVO LEON,USA,Target,Body Lotion,Cocoa Body Lotion,9999,Paquete Express,300.0,Cancelled,100
+HNT-86514,2023-03-10,Dallas TX,FLORIDA,USA,Amazon,Scent,Lavender Scent Spray,9999,Estafeta,50.0,In Transit,1
+HNT-24096,2023-03-10,Miami FL,CALIFORNIA,USA,Target,Balm,Healing Balm,100,LaserShip,450.0,In Transit,2
+HNT-83901,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Sephora USA,Scent,Rose Scent Mist,200,estafeta ,450.0,Cancelled,5
+HNT-88998,2023-03-10,Dallas TX,TEXAS,USA,Unknown,Body Soap,Charcoal Body Soap,100,UPS Ground,300.0,In Transit,5
+HNT-39821,2023-03-10,Miami FL,FLORIDA,USA,Amazon,Balm,Menthol Balm,100,  DHL,50.0,Cancelled,2
+HNT-75558,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,100,FedEx,300.0,Delivered,1
+HNT-73239,2023-03-10,Miami FL,CALIFORNIA,USA,Unknown,Soap,Shea Butter Soap,10,Estafeta,250.0,Cancelled,100
+HNT-32449,2023-03-10,Miami FL,TEXAS,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,50,FedEx,300.0,In Transit,0
+HNT-16336,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Scent,Jasmine Scent Oil,5,Redpack,250.0,Delayed,1
+HNT-55276,2023-03-10,Dallas TX,NEWYORK,USA,Walmart Mexico,Balm,Menthol Balm,50,UPS Air,300.0,Cancelled,0
+HNT-65961,2023-03-10,Mexico City,CALIFORNIA,USA,Walmart Mexico,Balm,Healing Balm,10,estafeta ,300.0,Cancelled,2
+HNT-38263,2023-03-10,"Los Angeles, CA",CDMX,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,9999,USPS,300.0,Cancelled,0
+HNT-59147,2023-03-10,"Los Angeles, CA",NUEVO LEON,USA,Target,Body Soap,Charcoal Body Soap,100,USPS Priority,450.0,Cancelled,100
+HNT-33992,2023-03-10,Guadalajara MX,CDMX,USA,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,9999,ups,250.0,Delivered,0
+HNT-63100,2023-03-10,Guadalajara MX,TEXAS,Mexico,Target,Balm,Lip Balm Strawberry,100,DHL Parcel,50.0,Cancelled,2
+HNT-63775,2023-03-10,Dallas TX,NUEVO LEON,USA,Unknown,Body Lotion,Cocoa Body Lotion,50,Paquete Express,300.0,Cancelled,5
+HNT-49425,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Unknown,Balm,Menthol Balm,9999,ups,50.0,In Transit,2
+HNT-84025,2023-03-10,Miami FL,TEXAS,USA,Amazon,Balm,Menthol Balm,5,FEDEX,50.0,Cancelled,0
+HNT-39458,2023-03-10,Dallas TX,NEWYORK,USA,Amazon,Soap,Shea Butter Soap,10,LaserShip,50.0,Delivered,100
+HNT-24383,2023-03-10,Miami FL,NUEVO LEON,USA,Amazon,Scent,Jasmine Scent Oil,50,FedEx Freight,50.0,Cancelled,2
+HNT-12998,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,9999,dhl,50.0,Delayed,2
+HNT-53231,2023-03-10,Miami FL,CALIFORNIA,USA,Unknown,Balm,Lip Balm Strawberry,100,USPS,300.0,Cancelled,5
+HNT-65605,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,200,UPS Ground,300.0,Cancelled,2
+HNT-42762,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Unknown,Balm,Healing Balm,10,OnTrac,250.0,Delivered,1
+HNT-16128,2023-03-10,Mexico City,TEXAS,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,100,Estafeta,50.0,Delayed,0
+HNT-49316,2023-03-10,Dallas TX,JALISCO,Mexico,Amazon,Scent,Lavender Scent Spray,200,Redpack,300.0,Delayed,1
+HNT-79316,2023-03-10,Guadalajara MX,FLORIDA,USA,Liverpool MX,Balm,Menthol Balm,100,Estafeta,450.0,In Transit,2
+HNT-35915,2023-03-10,Mexico City,CALIFORNIA,Mexico,Unknown,Balm,Menthol Balm,100,dhl,250.0,Delivered,2
+HNT-47034,2023-03-10,Dallas TX,FLORIDA,Mexico,Ulta Beauty,Body Lotion,Cocoa Body Lotion,100,Paquete Express,300.0,Delivered,100
+HNT-53919,2023-03-10,Dallas TX,JALISCO,Mexico,Liverpool MX,Scent,Lavender Scent Spray,100,UPS,50.0,Cancelled,5
+HNT-33816,2023-03-10,Dallas TX,NEWYORK,USA,Target,Balm,Menthol Balm,9999,ups,300.0,In Transit,2
+HNT-77480,2023-03-10,Guadalajara MX,CDMX,Mexico,Walmart Mexico,Soap,Shea Butter Soap,50,UPS Air,50.0,In Transit,2
+HNT-25069,2023-03-10,Dallas TX,TEXAS,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,100,LaserShip,300.0,Cancelled,1
+HNT-81037,2023-03-10,Dallas TX,JALISCO,USA,Ulta Beauty,Scent,Rose Scent Mist,5,Paquete Express,450.0,In Transit,5
+HNT-26130,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Target,Scent,Rose Scent Mist,9999,ups,300.0,Delivered,2
+HNT-31459,2023-03-10,Mexico City,FLORIDA,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,100,FedEx,250.0,Cancelled,2
+HNT-67942,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Balm,Lip Balm Strawberry,200,USPS Priority,300.0,Cancelled,1
+HNT-56831,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,50,  DHL,50.0,Delivered,2
+HNT-35702,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Balm,Lip Balm Strawberry,50,UPS Air,250.0,Delivered,0
+HNT-18029,2023-03-10,Dallas TX,JALISCO,USA,Sephora USA,Balm,Menthol Balm,5,ups,300.0,In Transit,5
+HNT-75260,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Ulta Beauty,Balm,Healing Balm,5,Paquete Express,250.0,Delayed,100
+HNT-21846,2023-03-10,Miami FL,FLORIDA,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,Redpack,300.0,Cancelled,2
+HNT-44653,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Scent,Rose Scent Mist,100,LaserShip,300.0,Cancelled,5
+HNT-52361,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,5,OnTrac,450.0,Delayed,5
+HNT-45307,2023-03-10,Mexico City,TEXAS,USA,Unknown,Body Soap,Vanilla Body Soap Bar,50,UPS Air,300.0,Cancelled,1
+HNT-13988,2023-03-10,Mexico City,CDMX,Mexico,Unknown,Scent,Rose Scent Mist,9999,UPS Air,50.0,In Transit,2
+HNT-62648,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,9999,UPS Air,300.0,Cancelled,2
+HNT-28093,2023-03-10,Dallas TX,FLORIDA,USA,Walmart Mexico,Body Lotion,Mango Body Lotion,50,UPS,300.0,Delayed,0
+HNT-27826,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Amazon,Balm,Healing Balm,50,ups,300.0,Delayed,100
+HNT-36588,2023-03-10,Dallas TX,TEXAS,Mexico,Unknown,Scent,Rose Scent Mist,5,  DHL,300.0,Delayed,100
+HNT-28165,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Unknown,Body Soap,Vanilla Body Soap Bar,100,UPS Air,300.0,Cancelled,2
+HNT-38043,2023-03-10,"Los Angeles, CA",CDMX,USA,Liverpool MX,Soap,Shea Butter Soap,100,FEDEX,50.0,Cancelled,100
+HNT-34381,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Walmart Mexico,Balm,Menthol Balm,200,OnTrac,50.0,Delivered,5
+HNT-77942,2023-03-10,Miami FL,NUEVO LEON,Mexico,Amazon,Body Soap,Charcoal Body Soap,200,ups,300.0,In Transit,2
+HNT-44214,2023-03-10,Miami FL,JALISCO,Mexico,Amazon,Scent,Rose Scent Mist,50,Paquete Express,300.0,Cancelled,2
+HNT-62111,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Target,Body Lotion,Mango Body Lotion,100,UPS Ground,50.0,Delayed,5
+HNT-30945,2023-03-10,Mexico City,FLORIDA,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,5,DHL Parcel,250.0,Delivered,5
+HNT-38079,2023-03-10,Miami FL,NUEVO LEON,USA,Liverpool MX,Body Soap,Charcoal Body Soap,50,UPS Ground,300.0,Cancelled,1
+HNT-54513,2023-03-10,"Los Angeles, CA",JALISCO,Mexico,Unknown,Body Soap,Charcoal Body Soap,100,USPS,450.0,Delayed,0
+HNT-29009,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,100,OnTrac,300.0,Cancelled,0
+HNT-61674,2023-03-10,Guadalajara MX,NEWYORK,USA,Target,Body Lotion,Aloe Body Lotion 500ml,100,  DHL,300.0,In Transit,2
+HNT-45318,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Scent,Jasmine Scent Oil,9999,UPS Air,50.0,Delayed,100
+HNT-84071,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,5,dhl,300.0,In Transit,100
+HNT-11540,2023-03-10,Miami FL,CALIFORNIA,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,100,ups,250.0,Delivered,5
+HNT-39106,2023-03-10,Guadalajara MX,JALISCO,Mexico,Target,Body Lotion,Mango Body Lotion,200,UPS Air,50.0,In Transit,1
+HNT-16038,2023-03-10,Mexico City,TEXAS,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,9999,FedEx,450.0,In Transit,0
+HNT-56838,2023-03-10,Guadalajara MX,YUCATAN,USA,Ulta Beauty,Balm,Menthol Balm,50,ups,50.0,In Transit,0
+HNT-61587,2023-03-10,Miami FL,CDMX,USA,Liverpool MX,Scent,Rose Scent Mist,9999,dhl,450.0,In Transit,100
+HNT-37913,2023-03-10,Miami FL,JALISCO,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,100,  DHL,450.0,Cancelled,1
+HNT-59624,2023-03-10,Mexico City,CALIFORNIA,USA,Amazon,Scent,Rose Scent Mist,50,UPS Ground,250.0,Cancelled,2
+HNT-75120,2023-03-10,Miami FL,NEWYORK,Mexico,Amazon,Scent,Jasmine Scent Oil,200,LaserShip,300.0,Cancelled,2
+HNT-79056,2023-03-10,Miami FL,TEXAS,Mexico,Target,Body Soap,Vanilla Body Soap Bar,9999,FEDEX,450.0,In Transit,2
+HNT-34597,2023-03-10,Dallas TX,TEXAS,USA,Target,Balm,Menthol Balm,50,  DHL,250.0,In Transit,5
+HNT-22838,2023-03-10,Mexico City,TEXAS,Mexico,Sephora USA,Balm,Menthol Balm,200,FedEx Freight,50.0,In Transit,2
+HNT-45161,2023-03-10,Guadalajara MX,TEXAS,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,200,FedEx,450.0,Delayed,100
+HNT-55977,2023-03-10,Miami FL,NUEVO LEON,Mexico,Amazon,Body Soap,Charcoal Body Soap,200,Estafeta,250.0,Delayed,5
+HNT-28491,2023-03-10,Dallas TX,TEXAS,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,10,FedEx,300.0,Cancelled,0
+HNT-40668,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Body Lotion,Mango Body Lotion,9999,USPS,300.0,Delivered,2
+HNT-74214,2023-03-10,Mexico City,NUEVO LEON,Mexico,Walmart Mexico,Scent,Rose Scent Mist,10,FEDEX,300.0,In Transit,2
+HNT-23927,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Unknown,Scent,Rose Scent Mist,10,dhl,300.0,Cancelled,0
+HNT-40183,2023-03-10,Dallas TX,JALISCO,Mexico,Sephora USA,Balm,Menthol Balm,5,FEDEX,300.0,In Transit,1
+HNT-38946,2023-03-10,Dallas TX,YUCATAN,USA,Amazon,Scent,Jasmine Scent Oil,5,  DHL,300.0,In Transit,0
+HNT-50279,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Body Soap,Charcoal Body Soap,100,Paquete Express,300.0,Cancelled,5
+HNT-24327,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,5,FEDEX,300.0,In Transit,2
+HNT-53887,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,100,  DHL,300.0,Cancelled,100
+HNT-23260,2023-03-10,"Los Angeles, CA",TEXAS,USA,Liverpool MX,Balm,Lip Balm Strawberry,10,LaserShip,250.0,Cancelled,2
+HNT-66383,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Amazon,Scent,Rose Scent Mist,200,  DHL,250.0,Delivered,5
+HNT-24971,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Target,Balm,Menthol Balm,10,ups,50.0,Delayed,100
+HNT-54085,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Sephora USA,Body Lotion,Mango Body Lotion,100,DHL Express,300.0,Cancelled,0
+HNT-44291,2023-03-10,"Los Angeles, CA",TEXAS,USA,Sephora USA,Body Soap,Charcoal Body Soap,200,  DHL,300.0,Cancelled,100
+HNT-27242,2023-03-10,Dallas TX,CDMX,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,100,FEDEX,250.0,Cancelled,2
+HNT-45242,2023-03-10,Dallas TX,NUEVO LEON,USA,Walmart Mexico,Scent,Jasmine Scent Oil,5,ups,50.0,Cancelled,1
+HNT-57386,2023-03-10,Miami FL,FLORIDA,Mexico,Sephora USA,Balm,Lip Balm Strawberry,200,ups,450.0,Delayed,2
+HNT-14270,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Liverpool MX,Balm,Healing Balm,100,OnTrac,250.0,Delivered,0
+HNT-59534,2023-03-10,Guadalajara MX,NEWYORK,USA,Amazon,Balm,Healing Balm,100,USPS,450.0,In Transit,2
+HNT-65834,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Soap,Shea Butter Soap,100,UPS Air,50.0,Cancelled,5
+HNT-58514,2023-03-10,Dallas TX,NEWYORK,Mexico,Target,Balm,Healing Balm,200,FEDEX,300.0,Delayed,2
+HNT-87374,2023-03-10,Dallas TX,JALISCO,Mexico,Walmart Mexico,Balm,Menthol Balm,50,UPS Air,300.0,Cancelled,5
+HNT-38615,2023-03-10,Mexico City,NUEVO LEON,Mexico,Unknown,Scent,Lavender Scent Spray,200,estafeta ,450.0,Delayed,2
+HNT-62182,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,5,LaserShip,300.0,Delivered,2
+HNT-30463,2023-03-10,Mexico City,NUEVO LEON,USA,Amazon,Scent,Jasmine Scent Oil,50,FedEx Freight,250.0,Delivered,5
+HNT-72567,2023-03-10,Dallas TX,TEXAS,Mexico,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,100,UPS Air,300.0,Cancelled,2
+HNT-78622,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,200,dhl,50.0,Delivered,2
+HNT-15093,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Soap,Shea Butter Soap,50,FedEx,50.0,Delivered,1
+HNT-48884,2023-03-10,Dallas TX,NEWYORK,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,10,FedEx,300.0,In Transit,100
+HNT-13745,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Ulta Beauty,Scent,Rose Scent Mist,50,DHL Express,250.0,Delivered,0
+HNT-38526,2023-03-10,Guadalajara MX,TEXAS,Mexico,Unknown,Body Lotion,Cocoa Body Lotion,5,Paquete Express,450.0,Cancelled,2
+HNT-65211,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Walmart Mexico,Soap,Shea Butter Soap,5,Redpack,250.0,Delayed,2
+HNT-25660,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Walmart Mexico,Scent,Jasmine Scent Oil,100,UPS Air,300.0,Cancelled,2
+HNT-10591,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,10,Redpack,50.0,Cancelled,1
+HNT-41592,2023-03-10,Dallas TX,JALISCO,Mexico,Target,Balm,Menthol Balm,200,dhl,250.0,Cancelled,0
+HNT-76644,2023-03-10,Mexico City,CALIFORNIA,Mexico,Walmart Mexico,Balm,Lip Balm Strawberry,9999,Estafeta,300.0,Cancelled,2
+HNT-69288,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Body Lotion,Mango Body Lotion,100,Estafeta,300.0,Delivered,0
+HNT-45613,2023-03-10,Dallas TX,TEXAS,USA,Target,Scent,Lavender Scent Spray,200,FedEx,300.0,Delayed,1
+HNT-44811,2023-03-10,Dallas TX,CDMX,USA,Ulta Beauty,Scent,Lavender Scent Spray,50,Estafeta,300.0,Delayed,2
+HNT-32803,2023-03-10,Miami FL,CALIFORNIA,Mexico,Sephora USA,Balm,Lip Balm Strawberry,9999,Paquete Express,300.0,Delivered,0
+HNT-78250,2023-03-10,"Los Angeles, CA",CDMX,USA,Amazon,Balm,Lip Balm Strawberry,5,DHL Parcel,450.0,Cancelled,1
+HNT-60054,2023-03-10,Dallas TX,TEXAS,USA,Target,Body Soap,Charcoal Body Soap,5,Redpack,250.0,Delivered,2
+HNT-37262,2023-03-10,Guadalajara MX,YUCATAN,USA,Liverpool MX,Balm,Healing Balm,100,UPS Ground,450.0,Delivered,2
+HNT-19034,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Soap,Shea Butter Soap,9999,USPS,300.0,Delayed,1
+HNT-73315,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Amazon,Body Lotion,Mango Body Lotion,10,UPS Air,250.0,In Transit,100
+HNT-70782,2023-03-10,Miami FL,FLORIDA,USA,Amazon,Balm,Lip Balm Strawberry,100,  DHL,300.0,In Transit,2
+HNT-61411,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Unknown,Scent,Jasmine Scent Oil,100,DHL Parcel,50.0,Cancelled,2
+HNT-40969,2023-03-10,"Los Angeles, CA",NUEVO LEON,Mexico,Amazon,Body Soap,Charcoal Body Soap,100,FedEx Freight,300.0,Delayed,2
+HNT-57692,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,5,Paquete Express,300.0,Delayed,2
+HNT-62731,2023-03-10,Mexico City,YUCATAN,Mexico,Target,Soap,Shea Butter Soap,100,estafeta ,50.0,In Transit,0
+HNT-73314,2023-03-10,Dallas TX,NUEVO LEON,USA,Target,Body Lotion,Cocoa Body Lotion,100,LaserShip,50.0,Cancelled,100
+HNT-45022,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,5,DHL Parcel,50.0,Cancelled,2
+HNT-30191,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Body Soap,Charcoal Body Soap,10,FedEx,300.0,Delivered,2
+HNT-27289,2023-03-10,"Los Angeles, CA",NEWYORK,Mexico,Amazon,Scent,Lavender Scent Spray,10,FedEx Freight,450.0,Delayed,5
+HNT-66895,2023-03-10,Mexico City,CDMX,Mexico,Liverpool MX,Balm,Menthol Balm,9999,estafeta ,300.0,Delayed,5
+HNT-57752,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,200,LaserShip,300.0,Delivered,0
+HNT-75808,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Liverpool MX,Body Lotion,Mango Body Lotion,200,LaserShip,50.0,Delayed,0
+HNT-25087,2023-03-10,Dallas TX,FLORIDA,Mexico,Target,Soap,Shea Butter Soap,5,UPS,450.0,Delayed,2
+HNT-37021,2023-03-10,Miami FL,NEWYORK,Mexico,Ulta Beauty,Body Lotion,Mango Body Lotion,10,UPS Air,300.0,Delayed,1
+HNT-61247,2023-03-10,Dallas TX,NEWYORK,USA,Sephora USA,Balm,Menthol Balm,100,UPS Ground,300.0,Cancelled,0
+HNT-50044,2023-03-10,Dallas TX,NEWYORK,USA,Sephora USA,Soap,Shea Butter Soap,200,ups,50.0,Delivered,100
+HNT-11878,2023-03-10,Mexico City,NEWYORK,USA,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,50,UPS Ground,300.0,Delivered,5
+HNT-68612,2023-03-10,Dallas TX,YUCATAN,USA,Target,Scent,Jasmine Scent Oil,100,DHL Parcel,450.0,In Transit,0
+HNT-28877,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Soap,Shea Butter Soap,50,UPS Air,300.0,Delivered,1
+HNT-55103,2023-03-10,Miami FL,CALIFORNIA,USA,Target,Balm,Lip Balm Strawberry,100,USPS,50.0,Cancelled,1
+HNT-34527,2023-03-10,Mexico City,NUEVO LEON,Mexico,Ulta Beauty,Scent,Lavender Scent Spray,200,OnTrac,250.0,Cancelled,100
+HNT-63471,2023-03-10,Miami FL,YUCATAN,Mexico,Liverpool MX,Balm,Menthol Balm,100,UPS Air,50.0,In Transit,2
+HNT-57734,2023-03-10,Miami FL,CALIFORNIA,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,50,UPS,50.0,Cancelled,0
+HNT-47807,2023-03-10,Guadalajara MX,TEXAS,Mexico,Amazon,Body Lotion,Mango Body Lotion,100,OnTrac,250.0,Delivered,2
+HNT-64727,2023-03-10,Miami FL,TEXAS,Mexico,Unknown,Balm,Menthol Balm,9999,UPS Air,300.0,Cancelled,0
+HNT-52386,2023-03-10,"Los Angeles, CA",JALISCO,Mexico,Unknown,Scent,Lavender Scent Spray,10,Paquete Express,300.0,Cancelled,1
+HNT-38382,2023-03-10,"Los Angeles, CA",TEXAS,USA,Amazon,Body Soap,Charcoal Body Soap,10,dhl,300.0,Delayed,5
+HNT-64505,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Unknown,Balm,Lip Balm Strawberry,9999,OnTrac,300.0,Cancelled,0
+HNT-67228,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Walmart Mexico,Body Soap,Charcoal Body Soap,100,Redpack,300.0,Delivered,100
+HNT-25583,2023-03-10,Dallas TX,NEWYORK,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,100,  DHL,50.0,In Transit,100
+HNT-11374,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Liverpool MX,Body Lotion,Mango Body Lotion,100,UPS,450.0,Cancelled,100
+HNT-19926,2023-03-10,Guadalajara MX,TEXAS,USA,Ulta Beauty,Balm,Healing Balm,100,LaserShip,450.0,Cancelled,0
+HNT-19331,2023-03-10,Miami FL,CALIFORNIA,Mexico,Liverpool MX,Scent,Rose Scent Mist,10,USPS,300.0,Delivered,2
+HNT-17172,2023-03-10,Dallas TX,JALISCO,USA,Amazon,Scent,Lavender Scent Spray,200,UPS Ground,300.0,Delayed,1
+HNT-63330,2023-03-10,Dallas TX,CDMX,USA,Unknown,Body Lotion,Cocoa Body Lotion,100,estafeta ,300.0,Cancelled,2
+HNT-16229,2023-03-10,Miami FL,CALIFORNIA,USA,Target,Soap,Shea Butter Soap,100,FedEx,50.0,In Transit,2
+HNT-48472,2023-03-10,Dallas TX,TEXAS,USA,Liverpool MX,Balm,Lip Balm Strawberry,100,UPS Ground,300.0,Cancelled,5
+HNT-82563,2023-03-10,Miami FL,CDMX,Mexico,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,200,OnTrac,300.0,Cancelled,1
+HNT-43053,2023-03-10,Mexico City,CALIFORNIA,Mexico,Target,Body Soap,Vanilla Body Soap Bar,5,Redpack,250.0,Delivered,0
+HNT-72745,2023-03-10,Guadalajara MX,NEWYORK,USA,Liverpool MX,Body Lotion,Mango Body Lotion,9999,estafeta ,300.0,Delayed,100
+HNT-49316,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Body Lotion,Cocoa Body Lotion,200,LaserShip,300.0,In Transit,0
+HNT-53711,2023-03-10,Dallas TX,NEWYORK,Mexico,Amazon,Soap,Shea Butter Soap,100,Paquete Express,50.0,Delayed,100
+HNT-65416,2023-03-10,Miami FL,YUCATAN,Mexico,Amazon,Body Soap,Charcoal Body Soap,9999,DHL Express,300.0,Cancelled,2
+HNT-16457,2023-03-10,Mexico City,YUCATAN,USA,Amazon,Body Lotion,Mango Body Lotion,10,LaserShip,300.0,Cancelled,2
+HNT-71859,2023-03-10,Guadalajara MX,TEXAS,Mexico,Unknown,Body Lotion,Mango Body Lotion,10,DHL Parcel,300.0,In Transit,0
+HNT-47566,2023-03-10,Guadalajara MX,YUCATAN,USA,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,5,FedEx,300.0,Cancelled,1
+HNT-84860,2023-03-10,Miami FL,CALIFORNIA,Mexico,Liverpool MX,Balm,Menthol Balm,200,UPS Air,450.0,Delayed,0
+HNT-37797,2023-03-10,Dallas TX,NEWYORK,USA,Amazon,Balm,Healing Balm,100,Paquete Express,450.0,Delayed,1
+HNT-57893,2023-03-10,Dallas TX,FLORIDA,Mexico,Target,Soap,Shea Butter Soap,10,Redpack,250.0,Cancelled,2
+HNT-26924,2023-03-10,Dallas TX,NUEVO LEON,USA,Walmart Mexico,Balm,Menthol Balm,100,Redpack,450.0,Cancelled,1
+HNT-74234,2023-03-10,Dallas TX,FLORIDA,Mexico,Walmart Mexico,Balm,Healing Balm,5,FEDEX,300.0,Delayed,100
+HNT-80720,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Balm,Healing Balm,50,UPS,300.0,Cancelled,2
+HNT-80796,2023-03-10,Miami FL,YUCATAN,Mexico,Walmart Mexico,Balm,Healing Balm,100,FEDEX,300.0,Cancelled,1
+HNT-62267,2023-03-10,Mexico City,JALISCO,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,50,Redpack,250.0,In Transit,0
+HNT-86134,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,50,FedEx,300.0,Cancelled,5
+HNT-77557,2023-03-10,Dallas TX,TEXAS,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,10,  DHL,250.0,Cancelled,2
+HNT-39959,2023-03-10,Dallas TX,TEXAS,Mexico,Amazon,Body Lotion,Aloe Body Lotion 500ml,5,OnTrac,250.0,Cancelled,100
+HNT-76780,2023-03-10,Dallas TX,FLORIDA,USA,Unknown,Body Soap,Charcoal Body Soap,100,FEDEX,300.0,In Transit,5
+HNT-11805,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Liverpool MX,Balm,Lip Balm Strawberry,100,UPS Air,300.0,Delivered,2
+HNT-56125,2023-03-10,Dallas TX,FLORIDA,Mexico,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,10,dhl,450.0,In Transit,2
+HNT-32924,2023-03-10,Miami FL,CDMX,USA,Liverpool MX,Body Soap,Charcoal Body Soap,10,LaserShip,50.0,Cancelled,2
+HNT-61816,2023-03-10,Miami FL,CDMX,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,100,UPS Ground,300.0,Cancelled,2
+HNT-70428,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Amazon,Balm,Menthol Balm,200,ups,300.0,Cancelled,100
+HNT-68929,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Sephora USA,Body Soap,Vanilla Body Soap Bar,5,USPS Priority,300.0,In Transit,0
+HNT-31764,2023-03-10,Guadalajara MX,YUCATAN,USA,Ulta Beauty,Body Soap,Charcoal Body Soap,100,LaserShip,300.0,Delivered,2
+HNT-20139,2023-03-10,"Los Angeles, CA",NUEVO LEON,USA,Unknown,Scent,Lavender Scent Spray,100,Paquete Express,50.0,Delayed,5
+HNT-13159,2023-03-10,Miami FL,TEXAS,USA,Amazon,Scent,Lavender Scent Spray,100,dhl,250.0,Cancelled,0
+HNT-13469,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Liverpool MX,Balm,Menthol Balm,5,FEDEX,300.0,Cancelled,0
+HNT-67489,2023-03-10,Miami FL,CALIFORNIA,Mexico,Target,Body Soap,Vanilla Body Soap Bar,100,ups,250.0,In Transit,2
+HNT-81006,2023-03-10,Miami FL,TEXAS,USA,Unknown,Scent,Rose Scent Mist,10,Estafeta,300.0,Cancelled,5
+HNT-38805,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Amazon,Balm,Menthol Balm,100,Redpack,300.0,Cancelled,5
+HNT-85215,2023-03-10,"Los Angeles, CA",JALISCO,Mexico,Unknown,Body Lotion,Cocoa Body Lotion,50,Paquete Express,50.0,In Transit,100
+HNT-28011,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Scent,Lavender Scent Spray,9999,FedEx Freight,300.0,Cancelled,100
+HNT-68155,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Ulta Beauty,Scent,Rose Scent Mist,50,Paquete Express,450.0,Cancelled,0
+HNT-24911,2023-03-10,Guadalajara MX,JALISCO,Mexico,Liverpool MX,Balm,Healing Balm,200,FedEx Freight,300.0,Cancelled,1
+HNT-62854,2023-03-10,Guadalajara MX,CDMX,Mexico,Sephora USA,Balm,Lip Balm Strawberry,100,FEDEX,300.0,Cancelled,5
+HNT-41583,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Walmart Mexico,Balm,Menthol Balm,9999,UPS Ground,50.0,In Transit,5
+HNT-42326,2023-03-10,"Los Angeles, CA",TEXAS,USA,Ulta Beauty,Balm,Healing Balm,50,LaserShip,300.0,In Transit,1
+HNT-24316,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Unknown,Body Soap,Charcoal Body Soap,5,USPS Priority,50.0,Delayed,100
+HNT-19772,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,10,estafeta ,300.0,In Transit,5
+HNT-15230,2023-03-10,Mexico City,YUCATAN,Mexico,Amazon,Balm,Lip Balm Strawberry,50,Paquete Express,300.0,Cancelled,0
+HNT-33180,2023-03-10,Dallas TX,FLORIDA,Mexico,Sephora USA,Balm,Healing Balm,50,  DHL,250.0,In Transit,5
+HNT-65501,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Amazon,Scent,Lavender Scent Spray,100,estafeta ,250.0,Cancelled,2
+HNT-56192,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Scent,Jasmine Scent Oil,100,LaserShip,300.0,In Transit,5
+HNT-44007,2023-03-10,Miami FL,NEWYORK,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,UPS Air,450.0,Delayed,5
+HNT-69714,2023-03-10,Mexico City,YUCATAN,Mexico,Sephora USA,Soap,Shea Butter Soap,9999,  DHL,450.0,In Transit,5
+HNT-16655,2023-03-10,Mexico City,TEXAS,Mexico,Ulta Beauty,Soap,Shea Butter Soap,5,UPS Air,450.0,In Transit,100
+HNT-74446,2023-03-10,Mexico City,NUEVO LEON,Mexico,Sephora USA,Balm,Lip Balm Strawberry,10,UPS Ground,300.0,Cancelled,100
+HNT-48290,2023-03-10,Dallas TX,CDMX,Mexico,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,100,FedEx Freight,300.0,Delayed,1
+HNT-83620,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,100,FedEx Freight,300.0,In Transit,100
+HNT-26990,2023-03-10,Guadalajara MX,TEXAS,Mexico,Target,Body Lotion,Cocoa Body Lotion,200,USPS,50.0,Delayed,2
+HNT-15028,2023-03-10,Miami FL,JALISCO,USA,Target,Body Lotion,Mango Body Lotion,9999,LaserShip,300.0,Delivered,0
+HNT-45957,2023-03-10,Dallas TX,FLORIDA,USA,Liverpool MX,Scent,Rose Scent Mist,10,LaserShip,450.0,Delivered,1
+HNT-30870,2023-03-10,Dallas TX,NEWYORK,USA,Target,Scent,Jasmine Scent Oil,5,LaserShip,250.0,In Transit,2
+HNT-65392,2023-03-10,Dallas TX,FLORIDA,USA,Unknown,Balm,Lip Balm Strawberry,50,UPS Air,300.0,Cancelled,1
+HNT-78064,2023-03-10,Mexico City,CALIFORNIA,USA,Walmart Mexico,Scent,Jasmine Scent Oil,50,Estafeta,300.0,Cancelled,0
+HNT-13277,2023-03-10,Dallas TX,FLORIDA,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,9999,OnTrac,300.0,In Transit,2
+HNT-16334,2023-03-10,Guadalajara MX,FLORIDA,USA,Sephora USA,Scent,Jasmine Scent Oil,10,USPS,300.0,Cancelled,0
+HNT-26080,2023-03-10,Dallas TX,JALISCO,Mexico,Walmart Mexico,Scent,Rose Scent Mist,200,UPS Air,50.0,Delivered,2
+HNT-12936,2023-03-10,Miami FL,NUEVO LEON,USA,Ulta Beauty,Body Lotion,Mango Body Lotion,9999,ups,250.0,Delayed,0
+HNT-77393,2023-03-10,Miami FL,JALISCO,USA,Sephora USA,Scent,Jasmine Scent Oil,200,UPS Air,300.0,Cancelled,5
+HNT-17257,2023-03-10,Dallas TX,CDMX,USA,Sephora USA,Scent,Jasmine Scent Oil,100,estafeta ,300.0,Delayed,100
+HNT-49525,2023-03-10,Mexico City,NUEVO LEON,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,50,dhl,50.0,In Transit,5
+HNT-63619,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Sephora USA,Balm,Healing Balm,9999,FedEx,300.0,Delayed,5
+HNT-80460,2023-03-10,Dallas TX,CDMX,Mexico,Unknown,Body Soap,Vanilla Body Soap Bar,50,LaserShip,450.0,In Transit,0
+HNT-22002,2023-03-10,"Los Angeles, CA",CDMX,USA,Unknown,Scent,Rose Scent Mist,50,dhl,250.0,Delayed,100
+HNT-46971,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Unknown,Body Lotion,Cocoa Body Lotion,100,FEDEX,300.0,Delivered,1
+HNT-45888,2023-03-10,Dallas TX,FLORIDA,Mexico,Amazon,Scent,Rose Scent Mist,100,estafeta ,250.0,Delayed,2
+HNT-57311,2023-03-10,Mexico City,CDMX,USA,Unknown,Balm,Lip Balm Strawberry,100,OnTrac,300.0,Delivered,5
+HNT-12265,2023-03-10,Mexico City,TEXAS,Mexico,Liverpool MX,Scent,Lavender Scent Spray,100,FedEx Freight,300.0,Delayed,1
+HNT-23827,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,5,FedEx,300.0,Delivered,1
+HNT-81853,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Walmart Mexico,Balm,Lip Balm Strawberry,9999,Redpack,450.0,Delayed,0
+HNT-28841,2023-03-10,Miami FL,TEXAS,USA,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,5,ups,300.0,Cancelled,2
+HNT-39405,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Unknown,Balm,Menthol Balm,5,DHL Parcel,50.0,Delivered,2
+HNT-62081,2023-03-10,Miami FL,YUCATAN,Mexico,Target,Body Lotion,Cocoa Body Lotion,100,estafeta ,250.0,Cancelled,5
+HNT-12357,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Amazon,Soap,Shea Butter Soap,9999,FEDEX,450.0,Cancelled,2
+HNT-27648,2023-03-10,Mexico City,CDMX,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,50,ups,250.0,Cancelled,100
+HNT-32765,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Amazon,Body Lotion,Cocoa Body Lotion,50,DHL Parcel,300.0,Cancelled,0
+HNT-37694,2023-03-10,Dallas TX,JALISCO,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,5,USPS,300.0,Delivered,100
+HNT-73162,2023-03-10,Mexico City,YUCATAN,Mexico,Ulta Beauty,Scent,Lavender Scent Spray,5,FedEx Freight,300.0,Delivered,100
+HNT-83140,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Unknown,Body Soap,Charcoal Body Soap,100,estafeta ,450.0,Cancelled,2
+HNT-27221,2023-03-10,Dallas TX,CDMX,USA,Ulta Beauty,Balm,Menthol Balm,100,USPS,450.0,Delivered,0
+HNT-79994,2023-03-10,Dallas TX,TEXAS,Mexico,Sephora USA,Balm,Healing Balm,200,LaserShip,300.0,Delivered,2
+HNT-84455,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,200,LaserShip,300.0,Cancelled,100
+HNT-80642,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Unknown,Body Soap,Charcoal Body Soap,100,USPS Priority,300.0,Cancelled,2
+HNT-69626,2023-03-10,Dallas TX,FLORIDA,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,5,  DHL,50.0,Cancelled,2
+HNT-51514,2023-03-10,Dallas TX,JALISCO,USA,Ulta Beauty,Scent,Jasmine Scent Oil,9999,USPS,300.0,Delivered,2
+HNT-88447,2023-03-10,"Los Angeles, CA",NEWYORK,Mexico,Unknown,Balm,Menthol Balm,9999,USPS,50.0,Delivered,2
+HNT-22072,2023-03-10,Dallas TX,TEXAS,USA,Walmart Mexico,Soap,Shea Butter Soap,100,FedEx Freight,50.0,Delivered,1
+HNT-72200,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,10,ups,300.0,Cancelled,2
+HNT-44161,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Balm,Menthol Balm,9999,UPS,300.0,Cancelled,5
+HNT-62154,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Amazon,Body Soap,Charcoal Body Soap,9999,estafeta ,300.0,Delayed,1
+HNT-82106,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,9999,UPS Air,300.0,Cancelled,2
+HNT-18257,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Ulta Beauty,Balm,Menthol Balm,10,OnTrac,450.0,Delivered,1
+HNT-40024,2023-03-10,Guadalajara MX,TEXAS,USA,Liverpool MX,Balm,Menthol Balm,200,OnTrac,300.0,In Transit,100
+HNT-65511,2023-03-10,Miami FL,NUEVO LEON,Mexico,Sephora USA,Balm,Menthol Balm,9999,Paquete Express,250.0,Delivered,2
+HNT-41091,2023-03-10,Dallas TX,FLORIDA,Mexico,Sephora USA,Body Lotion,Mango Body Lotion,200,UPS Ground,300.0,Cancelled,100
+HNT-51362,2023-03-10,Dallas TX,CALIFORNIA,USA,Ulta Beauty,Body Lotion,Mango Body Lotion,100,UPS Air,50.0,Delivered,100
+HNT-34005,2023-03-10,Dallas TX,YUCATAN,USA,Amazon,Body Soap,Charcoal Body Soap,100,Redpack,300.0,In Transit,0
+HNT-81919,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Ulta Beauty,Scent,Lavender Scent Spray,100,Redpack,300.0,Delayed,1
+HNT-58740,2023-03-10,Mexico City,CDMX,USA,Amazon,Scent,Jasmine Scent Oil,100,Paquete Express,450.0,Cancelled,2
+HNT-26785,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Body Soap,Vanilla Body Soap Bar,100,FedEx,300.0,Delayed,5
+HNT-84479,2023-03-10,Dallas TX,FLORIDA,USA,Liverpool MX,Body Lotion,Mango Body Lotion,100,DHL Parcel,300.0,Cancelled,100
+HNT-47565,2023-03-10,Miami FL,TEXAS,Mexico,Liverpool MX,Scent,Rose Scent Mist,50,UPS Ground,300.0,Delayed,1
+HNT-55509,2023-03-10,Miami FL,TEXAS,Mexico,Target,Balm,Menthol Balm,100,USPS,300.0,Cancelled,5
+HNT-66756,2023-03-10,Dallas TX,FLORIDA,USA,Sephora USA,Soap,Shea Butter Soap,100,DHL Express,450.0,Delivered,0
+HNT-84468,2023-03-10,Mexico City,FLORIDA,Mexico,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,10,Redpack,300.0,Cancelled,100
+HNT-39193,2023-03-10,Miami FL,NEWYORK,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,200,FedEx Freight,300.0,Cancelled,1
+HNT-64909,2023-03-10,Dallas TX,TEXAS,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,5,LaserShip,450.0,Delayed,1
+HNT-36788,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Body Lotion,Cocoa Body Lotion,5,UPS Air,50.0,In Transit,2
+HNT-60478,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Ulta Beauty,Soap,Shea Butter Soap,200,  DHL,300.0,Cancelled,5
+HNT-81055,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,9999,UPS Air,300.0,Delivered,100
+HNT-32846,2023-03-10,Guadalajara MX,NUEVO LEON,USA,Walmart Mexico,Body Lotion,Cocoa Body Lotion,5,  DHL,450.0,Delivered,2
+HNT-10483,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Ulta Beauty,Soap,Shea Butter Soap,9999,UPS Air,450.0,Delayed,2
+HNT-81781,2023-03-10,Dallas TX,NEWYORK,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,5,UPS Ground,450.0,Delayed,100
+HNT-43429,2023-03-10,Dallas TX,NEWYORK,USA,Unknown,Body Lotion,Cocoa Body Lotion,50,DHL Express,300.0,Cancelled,2
+HNT-70842,2023-03-10,"Los Angeles, CA",TEXAS,USA,Sephora USA,Body Soap,Vanilla Body Soap Bar,5,UPS,50.0,Cancelled,2
+HNT-25608,2023-03-10,Miami FL,JALISCO,Mexico,Liverpool MX,Balm,Lip Balm Strawberry,200,UPS,300.0,Cancelled,5
+HNT-57977,2023-03-10,Guadalajara MX,NEWYORK,USA,Unknown,Balm,Menthol Balm,200,estafeta ,50.0,Cancelled,2
+HNT-35569,2023-03-10,Dallas TX,FLORIDA,Mexico,Amazon,Body Soap,Charcoal Body Soap,100,FedEx,450.0,Delayed,1
+HNT-64348,2023-03-10,Mexico City,TEXAS,USA,Walmart Mexico,Balm,Menthol Balm,9999,FedEx,300.0,In Transit,5
+HNT-33339,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Amazon,Soap,Shea Butter Soap,50,Paquete Express,450.0,In Transit,1
+HNT-25329,2023-03-10,Guadalajara MX,CDMX,Mexico,Unknown,Body Lotion,Mango Body Lotion,100,FedEx Freight,250.0,Delayed,2
+HNT-82337,2023-03-10,Miami FL,JALISCO,USA,Walmart Mexico,Soap,Shea Butter Soap,100,DHL Express,300.0,Cancelled,1
+HNT-19751,2023-03-10,Miami FL,FLORIDA,Mexico,Walmart Mexico,Balm,Lip Balm Strawberry,100,UPS Air,450.0,Delayed,5
+HNT-88790,2023-03-10,"Los Angeles, CA",JALISCO,USA,Liverpool MX,Body Soap,Charcoal Body Soap,9999,UPS Ground,300.0,Delayed,100
+HNT-45710,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Ulta Beauty,Body Lotion,Mango Body Lotion,200,FEDEX,450.0,In Transit,100
+HNT-86174,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Unknown,Scent,Jasmine Scent Oil,50,LaserShip,300.0,In Transit,100
+HNT-35287,2023-03-10,Dallas TX,FLORIDA,Mexico,Amazon,Balm,Lip Balm Strawberry,100,estafeta ,50.0,Delayed,1
+HNT-64261,2023-03-10,Mexico City,CALIFORNIA,Mexico,Walmart Mexico,Body Soap,Charcoal Body Soap,10,DHL Express,450.0,In Transit,5
+HNT-11053,2023-03-10,Dallas TX,NUEVO LEON,USA,Walmart Mexico,Scent,Jasmine Scent Oil,200,FEDEX,50.0,Delivered,2
+HNT-40710,2023-03-10,"Los Angeles, CA",CDMX,USA,Walmart Mexico,Body Lotion,Cocoa Body Lotion,100,DHL Parcel,300.0,In Transit,5
+HNT-14191,2023-03-10,Guadalajara MX,TEXAS,Mexico,Unknown,Balm,Lip Balm Strawberry,9999,LaserShip,250.0,In Transit,5
+HNT-11882,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Liverpool MX,Body Soap,Vanilla Body Soap Bar,5,Estafeta,250.0,Delayed,5
+HNT-21285,2023-03-10,Dallas TX,JALISCO,USA,Target,Body Lotion,Aloe Body Lotion 500ml,50,DHL Parcel,300.0,Cancelled,100
+HNT-21023,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Liverpool MX,Balm,Healing Balm,5,Estafeta,300.0,Cancelled,5
+HNT-35262,2023-03-10,Miami FL,JALISCO,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,100,USPS Priority,250.0,Delayed,2
+HNT-65992,2023-03-10,Dallas TX,NEWYORK,USA,Unknown,Scent,Lavender Scent Spray,50,ups,50.0,In Transit,100
+HNT-23976,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Body Soap,Vanilla Body Soap Bar,10,FedEx,450.0,In Transit,0
+HNT-10144,2023-03-10,Dallas TX,TEXAS,Mexico,Unknown,Balm,Lip Balm Strawberry,10,ups,300.0,Delivered,100
+HNT-62827,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Unknown,Body Lotion,Mango Body Lotion,10,DHL Parcel,450.0,In Transit,5
+HNT-23043,2023-03-10,Miami FL,FLORIDA,Mexico,Unknown,Body Soap,Vanilla Body Soap Bar,9999,dhl,300.0,In Transit,100
+HNT-52276,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Scent,Lavender Scent Spray,50,Estafeta,300.0,In Transit,1
+HNT-73605,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Ulta Beauty,Body Lotion,Mango Body Lotion,50,OnTrac,450.0,Delivered,2
+HNT-32056,2023-03-10,Mexico City,TEXAS,Mexico,Amazon,Body Lotion,Mango Body Lotion,100,UPS Air,300.0,Delayed,5
+HNT-23967,2023-03-10,Mexico City,NEWYORK,Mexico,Target,Body Lotion,Mango Body Lotion,200,USPS Priority,300.0,Cancelled,5
+HNT-13401,2023-03-10,Mexico City,CALIFORNIA,Mexico,Amazon,Balm,Menthol Balm,9999,ups,300.0,Delayed,0
+HNT-61532,2023-03-10,Guadalajara MX,TEXAS,USA,Walmart Mexico,Balm,Healing Balm,9999,  DHL,300.0,Cancelled,0
+HNT-86879,2023-03-10,Dallas TX,FLORIDA,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,50,OnTrac,300.0,Cancelled,1
+HNT-19313,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Sephora USA,Balm,Lip Balm Strawberry,10,UPS Ground,300.0,Cancelled,100
+HNT-23142,2023-03-10,Guadalajara MX,NEWYORK,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,50,UPS Air,450.0,In Transit,5
+HNT-13543,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Liverpool MX,Balm,Healing Balm,5,Paquete Express,300.0,Delivered,5
+HNT-13201,2023-03-10,Mexico City,TEXAS,Mexico,Ulta Beauty,Body Soap,Charcoal Body Soap,10,USPS,50.0,In Transit,100
+HNT-24858,2023-03-10,Miami FL,NUEVO LEON,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,9999,UPS Air,450.0,Delayed,0
+HNT-81487,2023-03-10,"Los Angeles, CA",NUEVO LEON,USA,Walmart Mexico,Body Lotion,Mango Body Lotion,100,ups,50.0,In Transit,2
+HNT-13508,2023-03-10,Miami FL,JALISCO,Mexico,Unknown,Scent,Lavender Scent Spray,9999,UPS Ground,300.0,Delayed,2
+HNT-79601,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Walmart Mexico,Scent,Lavender Scent Spray,50,FEDEX,250.0,Cancelled,0
+HNT-47273,2023-03-10,Miami FL,NEWYORK,USA,Walmart Mexico,Scent,Rose Scent Mist,9999,UPS Air,50.0,Cancelled,100
+HNT-83755,2023-03-10,"Los Angeles, CA",TEXAS,USA,Target,Body Lotion,Cocoa Body Lotion,200,UPS Air,300.0,Delayed,1
+HNT-37863,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Liverpool MX,Scent,Rose Scent Mist,100,USPS,300.0,In Transit,1
+HNT-55614,2023-03-10,Miami FL,YUCATAN,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,10,UPS Air,50.0,Cancelled,5
+HNT-33537,2023-03-10,Mexico City,FLORIDA,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,9999,Paquete Express,450.0,Delayed,100
+HNT-58967,2023-03-10,Dallas TX,CDMX,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,9999,UPS,50.0,Cancelled,1
+HNT-73053,2023-03-10,Mexico City,CDMX,USA,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,200,USPS Priority,250.0,Delivered,5
+HNT-76738,2023-03-10,Dallas TX,YUCATAN,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,50,DHL Parcel,300.0,Delivered,0
+HNT-56849,2023-03-10,Mexico City,NUEVO LEON,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,50,  DHL,300.0,In Transit,100
+HNT-71249,2023-03-10,Miami FL,YUCATAN,USA,Target,Balm,Menthol Balm,9999,  DHL,250.0,Delivered,2
+HNT-56166,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Liverpool MX,Scent,Lavender Scent Spray,5,DHL Parcel,250.0,Cancelled,1
+HNT-65959,2023-03-10,Miami FL,TEXAS,Mexico,Amazon,Body Lotion,Aloe Body Lotion 500ml,10,USPS,300.0,Delayed,1
+HNT-21786,2023-03-10,Dallas TX,JALISCO,Mexico,Target,Body Lotion,Mango Body Lotion,50,FEDEX,300.0,Cancelled,2
+HNT-61470,2023-03-10,Miami FL,FLORIDA,USA,Amazon,Soap,Shea Butter Soap,10,UPS Air,300.0,Cancelled,2
+HNT-72525,2023-03-10,Mexico City,NUEVO LEON,USA,Target,Balm,Lip Balm Strawberry,9999,dhl,250.0,Delayed,5
+HNT-71719,2023-03-10,Guadalajara MX,NEWYORK,Mexico,Sephora USA,Balm,Lip Balm Strawberry,9999,UPS Air,250.0,Delivered,2
+HNT-63797,2023-03-10,"Los Angeles, CA",TEXAS,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,5,estafeta ,450.0,In Transit,100
+HNT-70048,2023-03-10,Miami FL,TEXAS,USA,Target,Body Lotion,Cocoa Body Lotion,100,LaserShip,300.0,Delivered,2
+HNT-76690,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Sephora USA,Body Lotion,Aloe Body Lotion 500ml,10,UPS Air,300.0,Cancelled,1
+HNT-77489,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,100,FedEx Freight,450.0,Delayed,100
+HNT-42036,2023-03-10,Dallas TX,NUEVO LEON,USA,Walmart Mexico,Balm,Healing Balm,10,FEDEX,300.0,Cancelled,0
+HNT-28702,2023-03-10,Miami FL,CALIFORNIA,Mexico,Amazon,Soap,Shea Butter Soap,5,UPS Air,50.0,Cancelled,0
+HNT-37035,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Unknown,Scent,Jasmine Scent Oil,100,UPS Ground,50.0,Cancelled,2
+HNT-86660,2023-03-10,Mexico City,JALISCO,USA,Ulta Beauty,Body Soap,Charcoal Body Soap,10,DHL Express,300.0,In Transit,2
+HNT-12100,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,5,ups,50.0,Cancelled,100
+HNT-41782,2023-03-10,"Los Angeles, CA",FLORIDA,USA,Unknown,Scent,Lavender Scent Spray,10,OnTrac,300.0,Cancelled,1
+HNT-27914,2023-03-10,Miami FL,CALIFORNIA,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,5,DHL Parcel,300.0,Cancelled,2
+HNT-81236,2023-03-10,Dallas TX,CALIFORNIA,USA,Target,Body Soap,Charcoal Body Soap,5,UPS Ground,450.0,Delayed,2
+HNT-77900,2023-03-10,Mexico City,TEXAS,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,DHL Express,50.0,Delivered,2
+HNT-19103,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,UPS Ground,50.0,Cancelled,0
+HNT-13621,2023-03-10,Mexico City,TEXAS,USA,Unknown,Scent,Rose Scent Mist,100,DHL Express,450.0,Delayed,5
+HNT-21621,2023-03-10,Mexico City,NEWYORK,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,9999,USPS Priority,300.0,Delayed,1
+HNT-12921,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Unknown,Body Lotion,Mango Body Lotion,10,USPS Priority,300.0,Delivered,100
+HNT-73487,2023-03-10,Mexico City,JALISCO,Mexico,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,FedEx,300.0,In Transit,2
+HNT-41461,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Liverpool MX,Balm,Healing Balm,100,Redpack,250.0,Delayed,0
+HNT-47033,2023-03-10,Mexico City,NEWYORK,USA,Ulta Beauty,Scent,Rose Scent Mist,5,Redpack,300.0,Delivered,100
+HNT-62607,2023-03-10,Miami FL,CALIFORNIA,USA,Liverpool MX,Scent,Rose Scent Mist,100,Estafeta,250.0,Cancelled,1
+HNT-44280,2023-03-10,Mexico City,YUCATAN,Mexico,Unknown,Body Soap,Vanilla Body Soap Bar,10,FedEx Freight,300.0,Delivered,1
+HNT-46709,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Balm,Lip Balm Strawberry,200,USPS Priority,50.0,Cancelled,2
+HNT-40071,2023-03-10,"Los Angeles, CA",CDMX,USA,Walmart Mexico,Scent,Rose Scent Mist,100,DHL Express,300.0,In Transit,1
+HNT-89352,2023-03-10,Guadalajara MX,NEWYORK,Mexico,Target,Balm,Healing Balm,50,USPS Priority,250.0,Cancelled,1
+HNT-53554,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,9999,Estafeta,300.0,Cancelled,2
+HNT-89737,2023-03-10,Mexico City,YUCATAN,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,50,DHL Express,300.0,Cancelled,2
+HNT-83693,2023-03-10,Dallas TX,YUCATAN,Mexico,Unknown,Soap,Shea Butter Soap,100,Estafeta,450.0,In Transit,100
+HNT-74882,2023-03-10,"Los Angeles, CA",NUEVO LEON,Mexico,Walmart Mexico,Scent,Lavender Scent Spray,50,USPS Priority,300.0,Delayed,1
+HNT-85722,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Scent,Jasmine Scent Oil,200,FedEx Freight,300.0,Delivered,1
+HNT-76911,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,200,OnTrac,450.0,Cancelled,100
+HNT-29733,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Target,Body Lotion,Cocoa Body Lotion,9999,estafeta ,300.0,Delayed,2
+HNT-23098,2023-03-10,Dallas TX,YUCATAN,USA,Liverpool MX,Balm,Lip Balm Strawberry,50,LaserShip,50.0,In Transit,0
+HNT-64730,2023-03-10,Dallas TX,YUCATAN,Mexico,Walmart Mexico,Soap,Shea Butter Soap,100,USPS Priority,300.0,Delivered,100
+HNT-46487,2023-03-10,"Los Angeles, CA",CDMX,Mexico,Unknown,Scent,Rose Scent Mist,9999,UPS Air,50.0,Delayed,0
+HNT-43916,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Walmart Mexico,Balm,Menthol Balm,100,ups,50.0,Delivered,2
+HNT-83542,2023-03-10,Guadalajara MX,TEXAS,Mexico,Amazon,Scent,Lavender Scent Spray,9999,USPS,450.0,Cancelled,100
+HNT-67087,2023-03-10,Miami FL,TEXAS,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,200,UPS Air,300.0,Delayed,0
+HNT-17221,2023-03-10,"Los Angeles, CA",CDMX,USA,Amazon,Balm,Healing Balm,100,Paquete Express,300.0,Delivered,1
+HNT-72942,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Walmart Mexico,Balm,Lip Balm Strawberry,100,ups,300.0,Delayed,2
+HNT-54506,2023-03-10,Dallas TX,CALIFORNIA,USA,Liverpool MX,Body Lotion,Mango Body Lotion,100,UPS Air,300.0,Cancelled,5
+HNT-64392,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Ulta Beauty,Balm,Menthol Balm,10,Paquete Express,300.0,Cancelled,2
+HNT-26549,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,50,Paquete Express,300.0,Delivered,2
+HNT-23121,2023-03-10,"Los Angeles, CA",CALIFORNIA,USA,Target,Scent,Rose Scent Mist,200,FEDEX,300.0,Delayed,2
+HNT-27615,2023-03-10,Miami FL,CALIFORNIA,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,10,ups,300.0,Delivered,5
+HNT-53495,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Scent,Jasmine Scent Oil,10,UPS Ground,450.0,Delayed,0
+HNT-67513,2023-03-10,Miami FL,JALISCO,Mexico,Unknown,Scent,Lavender Scent Spray,10,USPS Priority,300.0,Delivered,5
+HNT-18915,2023-03-10,Miami FL,NUEVO LEON,USA,Walmart Mexico,Soap,Shea Butter Soap,9999,OnTrac,300.0,Delayed,5
+HNT-70860,2023-03-10,Miami FL,JALISCO,Mexico,Walmart Mexico,Balm,Healing Balm,100,LaserShip,250.0,Cancelled,100
+HNT-36712,2023-03-10,Dallas TX,TEXAS,USA,Walmart Mexico,Balm,Healing Balm,100,LaserShip,300.0,In Transit,1
+HNT-49451,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Unknown,Body Lotion,Mango Body Lotion,200,Paquete Express,50.0,Delivered,5
+HNT-54735,2023-03-10,Mexico City,NEWYORK,Mexico,Sephora USA,Balm,Menthol Balm,100,FEDEX,300.0,Delivered,1
+HNT-75049,2023-03-10,Dallas TX,JALISCO,USA,Target,Body Lotion,Mango Body Lotion,5,DHL Express,300.0,Delayed,100
+HNT-54321,2023-03-10,Miami FL,TEXAS,Mexico,Amazon,Body Lotion,Aloe Body Lotion 500ml,50,DHL Parcel,50.0,Delivered,2
+HNT-15160,2023-03-10,Miami FL,CALIFORNIA,Mexico,Target,Body Lotion,Mango Body Lotion,50,UPS Ground,450.0,Delivered,2
+HNT-52261,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Sephora USA,Balm,Healing Balm,5,ups,250.0,In Transit,0
+HNT-80210,2023-03-10,Dallas TX,YUCATAN,Mexico,Amazon,Balm,Healing Balm,200,DHL Express,300.0,Cancelled,2
+HNT-81065,2023-03-10,Dallas TX,JALISCO,Mexico,Amazon,Soap,Shea Butter Soap,100,USPS,50.0,Delayed,2
+HNT-31752,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,200,FEDEX,50.0,Cancelled,5
+HNT-41104,2023-03-10,Mexico City,NEWYORK,Mexico,Liverpool MX,Balm,Healing Balm,10,Paquete Express,300.0,Delayed,100
+HNT-53726,2023-03-10,Dallas TX,NEWYORK,Mexico,Target,Body Lotion,Mango Body Lotion,100,USPS,250.0,Delayed,100
+HNT-11092,2023-03-10,Dallas TX,JALISCO,USA,Unknown,Balm,Lip Balm Strawberry,100,USPS,50.0,Delivered,2
+HNT-60470,2023-03-10,Dallas TX,NEWYORK,Mexico,Unknown,Scent,Lavender Scent Spray,9999,USPS Priority,250.0,Cancelled,0
+HNT-13745,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Walmart Mexico,Body Lotion,Cocoa Body Lotion,9999,DHL Parcel,300.0,Delayed,100
+HNT-84972,2023-03-10,Dallas TX,CALIFORNIA,USA,Amazon,Scent,Lavender Scent Spray,10,UPS Ground,300.0,Cancelled,0
+HNT-66661,2023-03-10,Dallas TX,JALISCO,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,9999,ups,300.0,Delivered,2
+HNT-78355,2023-03-10,Dallas TX,CALIFORNIA,USA,Unknown,Body Soap,Charcoal Body Soap,10,dhl,250.0,Cancelled,100
+HNT-60664,2023-03-10,Dallas TX,TEXAS,USA,Amazon,Scent,Rose Scent Mist,200,  DHL,300.0,In Transit,2
+HNT-37745,2023-03-10,Mexico City,CALIFORNIA,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,10,dhl,300.0,Cancelled,100
+HNT-86174,2023-03-10,Guadalajara MX,JALISCO,USA,Target,Scent,Lavender Scent Spray,100,USPS Priority,300.0,Cancelled,5
+HNT-56173,2023-03-10,Guadalajara MX,FLORIDA,USA,Target,Scent,Rose Scent Mist,100,dhl,300.0,Delivered,0
+HNT-14689,2023-03-10,"Los Angeles, CA",FLORIDA,Mexico,Liverpool MX,Balm,Lip Balm Strawberry,100,Estafeta,450.0,In Transit,5
+HNT-20394,2023-03-10,Dallas TX,CDMX,Mexico,Walmart Mexico,Balm,Healing Balm,50,Redpack,450.0,Delivered,5
+HNT-82201,2023-03-10,Guadalajara MX,NUEVO LEON,Mexico,Ulta Beauty,Balm,Lip Balm Strawberry,9999,Estafeta,300.0,Delivered,1
+HNT-30418,2023-03-10,Miami FL,JALISCO,Mexico,Ulta Beauty,Scent,Jasmine Scent Oil,5,USPS,450.0,In Transit,1
+HNT-70623,2023-03-10,Dallas TX,FLORIDA,USA,Unknown,Balm,Lip Balm Strawberry,200,DHL Express,50.0,Delayed,0
+HNT-68487,2023-03-10,Mexico City,NEWYORK,Mexico,Target,Body Lotion,Aloe Body Lotion 500ml,9999,Estafeta,450.0,Delivered,2
+HNT-19321,2023-03-10,Mexico City,YUCATAN,Mexico,Amazon,Body Soap,Charcoal Body Soap,5,DHL Parcel,300.0,Cancelled,5
+HNT-67391,2023-03-10,Miami FL,CALIFORNIA,USA,Sephora USA,Scent,Rose Scent Mist,100,dhl,300.0,Delayed,5
+HNT-41995,2023-03-10,Dallas TX,CDMX,Mexico,Liverpool MX,Balm,Healing Balm,200,dhl,300.0,Cancelled,1
+HNT-50723,2023-03-10,Dallas TX,NEWYORK,Mexico,Walmart Mexico,Body Soap,Charcoal Body Soap,9999,dhl,300.0,Cancelled,2
+HNT-45226,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Sephora USA,Scent,Jasmine Scent Oil,100,  DHL,450.0,Delayed,0
+HNT-33685,2023-03-10,Dallas TX,NUEVO LEON,USA,Liverpool MX,Body Lotion,Mango Body Lotion,5,DHL Express,250.0,Delayed,2
+HNT-79388,2023-03-10,Miami FL,TEXAS,Mexico,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,FEDEX,300.0,In Transit,2
+HNT-89398,2023-03-10,"Los Angeles, CA",NEWYORK,USA,Unknown,Scent,Lavender Scent Spray,100,UPS Air,250.0,Cancelled,1
+HNT-80194,2023-03-10,Mexico City,NUEVO LEON,USA,Liverpool MX,Balm,Lip Balm Strawberry,100,Redpack,300.0,Cancelled,5
+HNT-55275,2023-03-10,Dallas TX,NEWYORK,USA,Amazon,Balm,Menthol Balm,9999,USPS,300.0,Delayed,100
+HNT-14742,2023-03-10,Miami FL,TEXAS,USA,Walmart Mexico,Body Soap,Vanilla Body Soap Bar,50,Redpack,300.0,Cancelled,100
+HNT-75408,2023-03-10,Dallas TX,CDMX,Mexico,Ulta Beauty,Scent,Lavender Scent Spray,100,UPS Air,50.0,Cancelled,2
+HNT-28296,2023-03-10,Dallas TX,NUEVO LEON,USA,Liverpool MX,Body Lotion,Cocoa Body Lotion,10,Estafeta,300.0,Delivered,5
+HNT-12416,2023-03-10,Dallas TX,CDMX,Mexico,Amazon,Body Soap,Vanilla Body Soap Bar,100,Redpack,300.0,In Transit,5
+HNT-49327,2023-03-10,"Los Angeles, CA",YUCATAN,USA,Amazon,Body Soap,Vanilla Body Soap Bar,50,DHL Parcel,300.0,Cancelled,2
+HNT-87326,2023-03-10,Dallas TX,NEWYORK,Mexico,Target,Body Lotion,Mango Body Lotion,100,UPS Air,250.0,Cancelled,5
+HNT-69931,2023-03-10,Guadalajara MX,YUCATAN,Mexico,Amazon,Balm,Healing Balm,100,UPS Air,450.0,Delayed,0
+HNT-38974,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Liverpool MX,Body Soap,Charcoal Body Soap,100,UPS Air,50.0,Delivered,100
+HNT-19921,2023-03-10,Dallas TX,NEWYORK,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,50,FedEx Freight,300.0,Cancelled,0
+HNT-74493,2023-03-10,Mexico City,FLORIDA,Mexico,Amazon,Scent,Lavender Scent Spray,10,estafeta ,250.0,Cancelled,0
+HNT-78130,2023-03-10,Miami FL,CALIFORNIA,USA,Ulta Beauty,Soap,Shea Butter Soap,50,FedEx,300.0,Delivered,0
+HNT-25654,2023-03-10,Guadalajara MX,FLORIDA,Mexico,Amazon,Body Lotion,Aloe Body Lotion 500ml,5,USPS,250.0,Delivered,2
+HNT-53004,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Liverpool MX,Soap,Shea Butter Soap,200,FedEx Freight,300.0,Delayed,5
+HNT-21782,2023-03-10,Miami FL,TEXAS,USA,Target,Body Lotion,Mango Body Lotion,10,Redpack,300.0,Cancelled,0
+HNT-62024,2023-03-10,Mexico City,FLORIDA,USA,Walmart Mexico,Body Lotion,Mango Body Lotion,10,Paquete Express,250.0,Cancelled,0
+HNT-76356,2023-03-10,Miami FL,JALISCO,USA,Liverpool MX,Scent,Lavender Scent Spray,50,  DHL,300.0,In Transit,2
+HNT-31790,2023-03-10,"Los Angeles, CA",JALISCO,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,100,ups,300.0,Delivered,2
+HNT-11206,2023-03-10,Mexico City,NEWYORK,Mexico,Ulta Beauty,Balm,Menthol Balm,50,DHL Express,300.0,Cancelled,100
+HNT-86585,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Unknown,Soap,Shea Butter Soap,100,USPS,300.0,In Transit,1
+HNT-34947,2023-03-10,Mexico City,TEXAS,Mexico,Sephora USA,Body Soap,Charcoal Body Soap,9999,dhl,300.0,In Transit,2
+HNT-30052,2023-03-10,Guadalajara MX,JALISCO,USA,Unknown,Balm,Lip Balm Strawberry,5,UPS Air,250.0,Delayed,1
+HNT-77235,2023-03-10,"Los Angeles, CA",TEXAS,USA,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,5,Estafeta,250.0,Delayed,0
+HNT-36858,2023-03-10,Dallas TX,YUCATAN,Mexico,Liverpool MX,Soap,Shea Butter Soap,5,Estafeta,50.0,Cancelled,2
+HNT-19987,2023-03-10,Dallas TX,NUEVO LEON,Mexico,Sephora USA,Balm,Healing Balm,100,USPS,300.0,Cancelled,100
+HNT-34640,2023-03-10,Dallas TX,FLORIDA,Mexico,Walmart Mexico,Scent,Jasmine Scent Oil,9999,dhl,300.0,Delivered,100
+HNT-34351,2023-03-10,Guadalajara MX,TEXAS,Mexico,Amazon,Scent,Rose Scent Mist,200,Redpack,250.0,In Transit,100
+HNT-36561,2023-03-10,Miami FL,YUCATAN,Mexico,Amazon,Body Soap,Charcoal Body Soap,100,FedEx,300.0,In Transit,100
+HNT-12445,2023-03-10,Guadalajara MX,TEXAS,Mexico,Liverpool MX,Body Lotion,Cocoa Body Lotion,50,UPS Ground,300.0,Cancelled,2
+HNT-53158,2023-03-10,Mexico City,TEXAS,Mexico,Walmart Mexico,Body Lotion,Cocoa Body Lotion,9999,estafeta ,300.0,Delayed,1
+HNT-45562,2023-03-10,Dallas TX,NEWYORK,Mexico,Ulta Beauty,Body Lotion,Aloe Body Lotion 500ml,5,UPS Air,300.0,Cancelled,1
+HNT-36227,2023-03-10,"Los Angeles, CA",JALISCO,USA,Walmart Mexico,Body Soap,Charcoal Body Soap,100,FedEx,300.0,Delivered,5
+HNT-50569,2023-03-10,Dallas TX,CDMX,Mexico,Sephora USA,Balm,Menthol Balm,10,USPS Priority,300.0,Cancelled,1
+HNT-68499,2023-03-10,Guadalajara MX,JALISCO,Mexico,Walmart Mexico,Balm,Healing Balm,200,UPS Air,450.0,Delivered,2
+HNT-64357,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Amazon,Body Lotion,Cocoa Body Lotion,5,FEDEX,300.0,In Transit,1
+HNT-71741,2023-03-10,Guadalajara MX,TEXAS,Mexico,Walmart Mexico,Balm,Lip Balm Strawberry,5,ups,250.0,Cancelled,2
+HNT-81090,2023-03-10,Dallas TX,TEXAS,USA,Target,Body Lotion,Aloe Body Lotion 500ml,5,FEDEX,50.0,In Transit,2
+HNT-86603,2023-03-10,Dallas TX,CALIFORNIA,USA,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,200,DHL Parcel,50.0,Cancelled,2
+HNT-38221,2023-03-10,Dallas TX,TEXAS,USA,Walmart Mexico,Body Lotion,Aloe Body Lotion 500ml,100,UPS,300.0,In Transit,2
+HNT-26828,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Unknown,Balm,Healing Balm,50,  DHL,450.0,Cancelled,0
+HNT-65293,2023-03-10,Miami FL,JALISCO,Mexico,Walmart Mexico,Body Lotion,Mango Body Lotion,100,DHL Express,300.0,Delivered,2
+HNT-29376,2023-03-10,Dallas TX,NUEVO LEON,USA,Liverpool MX,Soap,Shea Butter Soap,5,  DHL,50.0,Cancelled,2
+HNT-26901,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Target,Scent,Jasmine Scent Oil,5,LaserShip,450.0,Delivered,100
+HNT-50623,2023-03-10,Dallas TX,CALIFORNIA,USA,Walmart Mexico,Balm,Healing Balm,100,FedEx,300.0,In Transit,100
+HNT-53759,2023-03-10,Dallas TX,CDMX,Mexico,Sephora USA,Scent,Rose Scent Mist,50,FedEx Freight,300.0,Cancelled,0
+HNT-55142,2023-03-10,Dallas TX,YUCATAN,Mexico,Ulta Beauty,Body Lotion,Cocoa Body Lotion,100,UPS Air,300.0,Delayed,2
+HNT-73594,2023-03-10,Guadalajara MX,TEXAS,Mexico,Sephora USA,Balm,Lip Balm Strawberry,5,UPS Air,300.0,Cancelled,5
+HNT-11720,2023-03-10,Guadalajara MX,JALISCO,Mexico,Unknown,Soap,Shea Butter Soap,5,  DHL,450.0,Delayed,1
+HNT-40573,2023-03-10,Mexico City,YUCATAN,USA,Unknown,Body Soap,Charcoal Body Soap,9999,FedEx,300.0,Cancelled,2
+HNT-44399,2023-03-10,Guadalajara MX,TEXAS,Mexico,Liverpool MX,Scent,Lavender Scent Spray,50,OnTrac,50.0,Delivered,5
+HNT-42167,2023-03-10,"Los Angeles, CA",TEXAS,USA,Unknown,Balm,Healing Balm,100,DHL Parcel,300.0,Cancelled,2
+HNT-51411,2023-03-10,Dallas TX,TEXAS,USA,Ulta Beauty,Balm,Healing Balm,10,estafeta ,50.0,Cancelled,1
+HNT-38662,2023-03-10,Miami FL,FLORIDA,USA,Sephora USA,Balm,Healing Balm,10,FedEx Freight,450.0,Cancelled,5
+HNT-67640,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Amazon,Body Soap,Charcoal Body Soap,5,USPS,450.0,Cancelled,2
+HNT-13685,2023-03-10,Dallas TX,JALISCO,USA,Ulta Beauty,Body Soap,Charcoal Body Soap,100,USPS Priority,50.0,Cancelled,1
+HNT-71040,2023-03-10,Mexico City,NUEVO LEON,Mexico,Unknown,Body Lotion,Aloe Body Lotion 500ml,200,LaserShip,300.0,Delayed,5
+HNT-63118,2023-03-10,Guadalajara MX,NEWYORK,Mexico,Liverpool MX,Balm,Menthol Balm,9999,dhl,300.0,In Transit,100
+HNT-53281,2023-03-10,Guadalajara MX,CDMX,USA,Amazon,Body Lotion,Aloe Body Lotion 500ml,100,FedEx,300.0,Delivered,2
+HNT-10436,2023-03-10,Miami FL,TEXAS,USA,Target,Soap,Shea Butter Soap,5,UPS Ground,250.0,Delivered,0
+HNT-48527,2023-03-10,Mexico City,CDMX,Mexico,Liverpool MX,Scent,Jasmine Scent Oil,100,DHL Parcel,450.0,Cancelled,0
+HNT-47469,2023-03-10,Guadalajara MX,CALIFORNIA,USA,Unknown,Body Soap,Vanilla Body Soap Bar,5,dhl,300.0,In Transit,2
+HNT-18765,2023-03-10,Miami FL,TEXAS,Mexico,Target,Body Lotion,Mango Body Lotion,100,Estafeta,450.0,Delivered,0
+HNT-51770,2023-03-10,"Los Angeles, CA",CDMX,USA,Ulta Beauty,Body Lotion,Mango Body Lotion,200,FEDEX,300.0,Delivered,5
+HNT-71659,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Ulta Beauty,Body Soap,Vanilla Body Soap Bar,50,FedEx,450.0,Cancelled,0
+HNT-13748,2023-03-10,"Los Angeles, CA",TEXAS,Mexico,Liverpool MX,Scent,Rose Scent Mist,100,Paquete Express,300.0,Delivered,1
+HNT-60503,2023-03-10,Mexico City,TEXAS,Mexico,Unknown,Scent,Lavender Scent Spray,200,ups,300.0,In Transit,2
+HNT-26373,2023-03-10,Mexico City,JALISCO,USA,Sephora USA,Scent,Jasmine Scent Oil,9999,USPS Priority,250.0,Delayed,2
+HNT-46291,2023-03-10,Dallas TX,CALIFORNIA,USA,Target,Scent,Jasmine Scent Oil,10,FedEx Freight,250.0,Delivered,100
+HNT-76484,2023-03-10,Mexico City,TEXAS,USA,Ulta Beauty,Scent,Lavender Scent Spray,10,Estafeta,300.0,Cancelled,2
+HNT-86430,2023-03-10,Mexico City,FLORIDA,USA,Walmart Mexico,Balm,Lip Balm Strawberry,50,OnTrac,300.0,Cancelled,1
+HNT-44892,2023-03-10,"Los Angeles, CA",CDMX,USA,Amazon,Soap,Shea Butter Soap,100,UPS Ground,250.0,Cancelled,1
+HNT-35569,2023-03-10,"Los Angeles, CA",YUCATAN,Mexico,Target,Body Soap,Charcoal Body Soap,200,DHL Express,300.0,Delayed,100
+HNT-58363,2023-03-10,Guadalajara MX,TEXAS,USA,Ulta Beauty,Body Lotion,Cocoa Body Lotion,5,FEDEX,450.0,Cancelled,2
+HNT-35288,2023-03-10,Dallas TX,TEXAS,USA,Sephora USA,Balm,Menthol Balm,5,FEDEX,50.0,Delayed,100
+HNT-55444,2023-03-10,Dallas TX,YUCATAN,Mexico,Amazon,Body Lotion,Mango Body Lotion,10,FEDEX,250.0,In Transit,2
+HNT-43493,2023-03-10,Dallas TX,NEWYORK,Mexico,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,10,FEDEX,300.0,Delayed,100
+HNT-23990,2023-03-10,Dallas TX,CDMX,Mexico,Liverpool MX,Body Soap,Vanilla Body Soap Bar,200,DHL Express,50.0,Cancelled,2
+HNT-62123,2023-03-10,Dallas TX,CDMX,Mexico,Sephora USA,Body Lotion,Cocoa Body Lotion,100,estafeta ,300.0,Delivered,100
+HNT-16829,2023-03-10,Mexico City,CALIFORNIA,USA,Unknown,Body Soap,Vanilla Body Soap Bar,10,UPS Air,300.0,Cancelled,5
+HNT-35050,2023-03-10,Dallas TX,CALIFORNIA,Mexico,Target,Scent,Lavender Scent Spray,9999,FedEx Freight,250.0,Delivered,5
+HNT-80213,2023-03-10,Dallas TX,NUEVO LEON,USA,Unknown,Body Lotion,Aloe Body Lotion 500ml,100,ups,450.0,Cancelled,0
+HNT-29247,2023-03-10,Dallas TX,JALISCO,Mexico,Ulta Beauty,Balm,Healing Balm,100,  DHL,450.0,Cancelled,100
+HNT-14914,2023-03-10,"Los Angeles, CA",CALIFORNIA,Mexico,Amazon,Balm,Lip Balm Strawberry,100,Paquete Express,50.0,In Transit,0
+HNT-57042,2023-03-10,Guadalajara MX,CALIFORNIA,Mexico,Liverpool MX,Body Lotion,Aloe Body Lotion 500ml,5,Paquete Express,300.0,Delivered,0
+HNT-52778,2023-03-10,Miami FL,CALIFORNIA,Mexico,Walmart Mexico,Scent,Jasmine Scent Oil,200,LaserShip,450.0,Delayed,2
+HNT-20850,2023-03-10,Miami FL,TEXAS,USA,Ulta Beauty,Balm,Menthol Balm,100,dhl,300.0,In Transit,2
+HNT-42817,2023-03-10,Dallas TX,TEXAS,USA,Sephora USA,Body Lotion,Cocoa Body Lotion,9999,UPS,300.0,Delivered,5
